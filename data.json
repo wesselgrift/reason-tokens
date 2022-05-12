@@ -1053,10 +1053,6 @@
         },
         "type": "typography"
       }
-    },
-    "test": {
-      "value": "4",
-      "type": "sizing"
     }
   }
 }
