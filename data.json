@@ -352,7 +352,7 @@
       "value": "80",
       "type": "lineHeights"
     },
-    "font-family-inter": {
+    "base-font-family": {
       "value": "Inter",
       "type": "fontFamilies"
     },
@@ -1054,5 +1054,6 @@
         "type": "typography"
       }
     }
-  }
+  },
+  "$themes": []
 }
