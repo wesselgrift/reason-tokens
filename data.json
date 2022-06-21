@@ -721,6 +721,21 @@
           "description": "Button label typography for a regular button"
         }
       }
+    },
+    "text": {
+      "heading": {
+        "large": {
+          "value": {
+            "fontFamily": "{base-font-family}",
+            "fontWeight": "{font-weight-medium}",
+            "lineHeight": "{line-height-56}",
+            "fontSize": "{font-size-40}",
+            "letterSpacing": "{letter-spacing--1,9}"
+          },
+          "type": "typography",
+          "description": "Heading 1 for the app"
+        }
+      }
     }
   },
   "App/Light": {
@@ -753,7 +768,7 @@
         "background": {
           "primary": {
             "default": {
-              "value": "{Shade.900}",
+              "value": "{Shade.000}",
               "type": "color",
               "description": "background color for primary buttons in dark mode"
             }
@@ -762,7 +777,7 @@
         "text": {
           "primary": {
             "default": {
-              "value": "{Shade.000}",
+              "value": "{Shade.900}",
               "type": "color",
               "description": "button label color for primary buttons in dark mode"
             }
