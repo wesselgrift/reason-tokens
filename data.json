@@ -770,7 +770,7 @@
         }
       }
     },
-    "app": {
+    "app general": {
       "color": {
         "background": {
           "default": {
@@ -814,7 +814,7 @@
         }
       }
     },
-    "app": {
+    "app general": {
       "color": {
         "background": {
           "default": {
