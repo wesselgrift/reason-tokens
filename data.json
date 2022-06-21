@@ -1,5 +1,5 @@
 {
-  "Base": {
+  "Core": {
     "size-4": {
       "value": "4",
       "type": "sizing"
@@ -705,45 +705,67 @@
       }
     }
   },
-  "Marketing app": {
-    "app": {
-      "light": {
-        "button": {
-          "color": {
-            "background": {
-              "primary": {
-                "default": {
-                  "value": "{Shade.900}",
-                  "type": "color",
-                  "description": "background color for primary buttons in light mode"
-                }
-              }
-            },
-            "text": {
-              "primary": {
-                "default": {
-                  "value": "{Shade.000}",
-                  "type": "color",
-                  "description": "button label color for primary buttons in light mode"
-                }
-              }
+  "App": {
+    "button": {
+      "typography": {
+        "regular": {
+          "value": {
+            "fontFamily": "{base-font-family}",
+            "fontWeight": "{font-weight-medium}",
+            "lineHeight": "{line-height-24}",
+            "fontSize": "{font-size-16}",
+            "letterSpacing": "{letter-spacing-0}",
+            "paragraphSpacing": ""
+          },
+          "type": "typography",
+          "description": "Button label typography for a regular button"
+        }
+      }
+    }
+  },
+  "App/Light": {
+    "button": {
+      "color": {
+        "background": {
+          "primary": {
+            "default": {
+              "value": "{Shade.900}",
+              "type": "color",
+              "description": "background color for primary buttons in light mode"
+            }
+          }
+        },
+        "text": {
+          "primary": {
+            "default": {
+              "value": "{Shade.000}",
+              "type": "color",
+              "description": "button label color for primary buttons in light mode"
             }
           }
         }
-      },
-      "button": {
-        "typography": {
-          "regular": {
-            "value": {
-              "fontFamily": "{base-font-family}",
-              "fontWeight": "{font-weight-medium}",
-              "lineHeight": "{line-height-24}",
-              "fontSize": "{font-size-16}",
-              "letterSpacing": "{letter-spacing-0}",
-              "paragraphSpacing": ""
-            },
-            "type": "typography",
-            "description": "Button label typography for a regular button"
+      }
+    }
+  },
+  "App/Dark": {
+    "button": {
+      "color": {
+        "background": {
+          "primary": {
+            "default": {
+              "value": "{Shade.900}",
+              "type": "color",
+              "description": "background color for primary buttons in dark mode"
+            }
+          }
+        },
+        "text": {
+          "primary": {
+            "default": {
+              "value": "{Shade.000}",
+              "type": "color",
+              "description": "button label color for primary buttons in dark mode"
+            }
           }
         }
       }
