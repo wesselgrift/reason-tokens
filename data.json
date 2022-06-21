@@ -720,6 +720,29 @@
           "type": "typography",
           "description": "Button label typography for a regular button"
         }
+      },
+      "borderradius": {
+        "regular": {
+          "value": "{radii-32}",
+          "type": "borderRadius",
+          "description": "regular button border radius"
+        }
+      },
+      "padding": {
+        "vertical": {
+          "regular": {
+            "value": "{space-12}",
+            "type": "spacing",
+            "description": "button vertical spacing"
+          }
+        },
+        "horizontal": {
+          "regular": {
+            "value": "{space-24}",
+            "type": "spacing",
+            "description": "button horizontal padding"
+          }
+        }
       }
     },
     "text": {
