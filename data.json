@@ -791,10 +791,6 @@
             "default": {
               "value": "{Shade.300}",
               "type": "color"
-            },
-            "danger": {
-              "value": "{battery indicator.battery percentage.color.background.danger}",
-              "type": "color"
             }
           }
         }
@@ -858,6 +854,36 @@
             "value": "{Shade.900}",
             "type": "color",
             "description": "default app background color"
+          }
+        }
+      }
+    },
+    "battery indicator": {
+      "battery container": {
+        "color": {
+          "border": {
+            "default": {
+              "value": "{Shade.700}",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "battery percentage": {
+        "color": {
+          "background": {
+            "default": {
+              "value": "{Spring Green.900}",
+              "type": "color"
+            },
+            "warning": {
+              "value": "{Yellow.900}",
+              "type": "color"
+            },
+            "danger": {
+              "value": "{Coral.700}",
+              "type": "color"
+            }
           }
         }
       }
