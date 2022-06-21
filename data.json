@@ -791,6 +791,10 @@
             "default": {
               "value": "{Shade.300}",
               "type": "color"
+            },
+            "danger": {
+              "value": "{battery indicator.battery percentage.color.background.danger}",
+              "type": "color"
             }
           }
         }
