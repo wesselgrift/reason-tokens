@@ -729,11 +729,24 @@
             "fontFamily": "{base-font-family}",
             "fontWeight": "{font-weight-medium}",
             "lineHeight": "{line-height-56}",
-            "fontSize": "{font-size-40}",
+            "fontSize": "{font-size-36}",
             "letterSpacing": "{letter-spacing--1,9}"
           },
           "type": "typography",
           "description": "Heading 1 for the app"
+        }
+      },
+      "paragraph": {
+        "regular": {
+          "value": {
+            "fontFamily": "{base-font-family}",
+            "fontWeight": "{font-weight-regular}",
+            "lineHeight": "{line-height-24}",
+            "fontSize": "{font-size-15}",
+            "letterSpacing": "{letter-spacing-0}"
+          },
+          "type": "typography",
+          "description": "Regular paragraph"
         }
       }
     }
@@ -774,7 +787,7 @@
       "color": {
         "background": {
           "default": {
-            "value": "{Shade.100}",
+            "value": "{Shade.050}",
             "type": "color",
             "description": "default app background color"
           }
