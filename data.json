@@ -744,7 +744,7 @@
         "background": {
           "primary": {
             "default": {
-              "value": "{Shade.900}",
+              "value": "{Ocean.900}",
               "type": "color",
               "description": "background color for primary buttons in light mode"
             }
