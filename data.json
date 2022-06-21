@@ -760,6 +760,26 @@
           }
         }
       }
+    },
+    "text": {
+      "color": {
+        "default": {
+          "value": "{Shade.900}",
+          "type": "color",
+          "description": "default text color in dark mode"
+        }
+      }
+    },
+    "app": {
+      "color": {
+        "background": {
+          "default": {
+            "value": "{Shade.100}",
+            "type": "color",
+            "description": "default app background color"
+          }
+        }
+      }
     }
   },
   "App/Dark": {
@@ -781,6 +801,26 @@
               "type": "color",
               "description": "button label color for primary buttons in dark mode"
             }
+          }
+        }
+      }
+    },
+    "text": {
+      "color": {
+        "default": {
+          "value": "{Shade.000}",
+          "type": "color",
+          "description": "default text color in dark mode"
+        }
+      }
+    },
+    "app": {
+      "color": {
+        "background": {
+          "default": {
+            "value": "{Shade.900}",
+            "type": "color",
+            "description": "default app background color"
           }
         }
       }
