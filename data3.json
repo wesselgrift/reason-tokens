@@ -725,7 +725,7 @@
       }
     }
   },
-  "App": {
+  "Typography": {
     "title 1": {
       "regular": {
         "value": {
@@ -982,7 +982,7 @@
       }
     }
   },
-  "App/Light": {
+  "Light Theme": {
     "text": {
       "color": {
         "default": {
@@ -1090,7 +1090,7 @@
       }
     }
   },
-  "App/Dark": {
+  "Dark Theme": {
     "text": {
       "color": {
         "default": {
