@@ -728,477 +728,475 @@
     }
   },
   "App": {
-    "semantic": {
-      "light": {
-        "text": {
-          "color": {
-            "default": {
-              "value": "{core.Shade.900}",
-              "type": "color",
-              "description": "default text color in dark mode"
-            }
+    "light": {
+      "text": {
+        "color": {
+          "default": {
+            "value": "{core.Shade.900}",
+            "type": "color",
+            "description": "default text color in dark mode"
           }
-        },
-        "button": {
-          "color": {
-            "background": {
-              "primary": {
-                "default": {
-                  "value": "{core.Shade.900}",
-                  "type": "color",
-                  "description": "background color for primary buttons in light mode"
-                },
-                "pressed": {
-                  "value": "{core.Shade.800}",
-                  "type": "color",
-                  "description": "background color for primary buttons in light mode"
-                },
-                "disabled": {
-                  "value": "{core.Shade.200}",
-                  "type": "color",
-                  "description": "background color for primary buttons in light mode"
-                }
-              }
-            },
-            "text": {
-              "primary": {
-                "default": {
-                  "value": "{core.Shade.000}",
-                  "type": "color",
-                  "description": "button label color for primary buttons in light mode"
-                },
-                "pressed": {
-                  "value": "{core.Shade.400}",
-                  "type": "color",
-                  "description": "button label color for primary buttons in light mode"
-                },
-                "disabled": {
-                  "value": "{core.Shade.400}",
-                  "type": "color",
-                  "description": "button label color for primary buttons in light mode"
-                }
-              }
-            }
-          }
-        },
-        "app general": {
-          "color": {
-            "background": {
-              "default": {
-                "value": "{core.Shade.050}",
-                "type": "color",
-                "description": "default app background color"
-              }
-            }
-          }
-        },
-        "battery indicator": {
-          "battery container": {
-            "color": {
-              "border": {
-                "default": {
-                  "value": "{core.Shade.300}",
-                  "type": "color"
-                },
-                "danger": {
-                  "value": "{semantic.light.battery indicator.battery percentage.color.background.danger}",
-                  "type": "color"
-                }
-              },
-              "background": {
-                "default": {
-                  "value": "{core.Transparent.white-00}",
-                  "type": "color"
-                },
-                "disabled": {
-                  "value": "{semantic.light.battery indicator.battery container.color.border.default}",
-                  "type": "color"
-                }
-              }
-            }
-          },
-          "battery percentage": {
-            "color": {
-              "background": {
-                "default": {
-                  "value": "{core.Spring Green.900}",
-                  "type": "color"
-                },
-                "warning": {
-                  "value": "{core.Yellow.900}",
-                  "type": "color"
-                },
-                "danger": {
-                  "value": "{core.Coral.700}",
-                  "type": "color"
-                }
-              }
-            }
-          }
-        }
-      },
-      "dark": {
-        "text": {
-          "color": {
-            "default": {
-              "value": "{core.Shade.000}",
-              "type": "color",
-              "description": "default text color in dark mode"
-            }
-          }
-        },
-        "button": {
-          "color": {
-            "background": {
-              "primary": {
-                "default": {
-                  "value": "{core.Shade.000}",
-                  "type": "color",
-                  "description": "background color for primary buttons in light mode"
-                },
-                "pressed": {
-                  "value": "{core.Shade.050}",
-                  "type": "color",
-                  "description": "background color for primary buttons in light mode"
-                },
-                "disabled": {
-                  "value": "{core.Shade.000}",
-                  "type": "color",
-                  "description": "background color for primary buttons in light mode"
-                }
-              }
-            },
-            "text": {
-              "primary": {
-                "default": {
-                  "value": "{core.Shade.900}",
-                  "type": "color",
-                  "description": "button label color for primary buttons in light mode"
-                },
-                "pressed": {
-                  "value": "{core.Shade.600}",
-                  "type": "color",
-                  "description": "button label color for primary buttons in light mode"
-                },
-                "disabled": {
-                  "value": "{core.Shade.400}",
-                  "type": "color",
-                  "description": "button label color for primary buttons in light mode"
-                }
-              }
-            }
-          }
-        },
-        "app general": {
-          "color": {
-            "background": {
-              "default": {
-                "value": "{core.Shade.900}",
-                "type": "color",
-                "description": "default app background color"
-              }
-            }
-          }
-        },
-        "battery indicator": {
-          "battery container": {
-            "color": {
-              "border": {
-                "default": {
-                  "value": "{core.Shade.500}",
-                  "type": "color"
-                },
-                "danger": {
-                  "value": "{semantic.light.battery indicator.battery percentage.color.background.danger}",
-                  "type": "color"
-                }
-              },
-              "background": {
-                "default": {
-                  "value": "{core.Transparent.white-00}",
-                  "type": "color"
-                },
-                "disabled": {
-                  "value": "{semantic.dark.battery indicator.battery container.color.border.default}",
-                  "type": "color"
-                }
-              }
-            }
-          },
-          "battery percentage": {
-            "color": {
-              "background": {
-                "default": {
-                  "value": "{core.Spring Green.900}",
-                  "type": "color"
-                },
-                "warning": {
-                  "value": "{core.Yellow.900}",
-                  "type": "color"
-                },
-                "danger": {
-                  "value": "{core.Coral.700}",
-                  "type": "color"
-                }
-              }
-            }
-          }
-        }
-      },
-      "title 1": {
-        "regular": {
-          "value": {
-            "fontFamily": "{core.base-font-family}",
-            "fontWeight": "{core.font-weight-regular}",
-            "lineHeight": "{core.line-height-32}",
-            "fontSize": "{core.font-size-28}",
-            "letterSpacing": "{core.letter-spacing--1,1}"
-          },
-          "type": "typography",
-          "description": "Heading 1 for the app"
-        },
-        "semibold": {
-          "value": {
-            "fontFamily": "{core.base-font-family}",
-            "fontWeight": "{core.font-weight-semibold}",
-            "lineHeight": "{core.line-height-32}",
-            "fontSize": "{core.font-size-28}",
-            "letterSpacing": "{core.letter-spacing--1,1}"
-          },
-          "type": "typography",
-          "description": "Heading 1 for the app"
-        }
-      },
-      "title 2": {
-        "regular": {
-          "value": {
-            "fontFamily": "{core.base-font-family}",
-            "fontWeight": "{core.font-weight-regular}",
-            "lineHeight": "{core.line-height-32}",
-            "fontSize": "{core.font-size-22}",
-            "letterSpacing": "{core.letter-spacing--0,9}"
-          },
-          "type": "typography",
-          "description": "Heading 1 for the app"
-        },
-        "medium": {
-          "value": {
-            "fontFamily": "{core.base-font-family}",
-            "fontWeight": "{core.font-weight-medium}",
-            "lineHeight": "{core.line-height-32}",
-            "fontSize": "{core.font-size-22}",
-            "letterSpacing": "{core.letter-spacing--0,9}"
-          },
-          "type": "typography",
-          "description": "Heading 1 for the app"
-        },
-        "semibold": {
-          "value": {
-            "fontFamily": "{core.base-font-family}",
-            "fontWeight": "{core.font-weight-semibold}",
-            "lineHeight": "{core.line-height-32}",
-            "fontSize": "{core.font-size-22}",
-            "letterSpacing": "{core.letter-spacing--0,9}"
-          },
-          "type": "typography",
-          "description": "Heading 1 for the app"
-        }
-      },
-      "title 3": {
-        "medium": {
-          "value": {
-            "fontFamily": "{core.base-font-family}",
-            "fontWeight": "{core.font-weight-medium}",
-            "lineHeight": "{core.line-height-24}",
-            "fontSize": "{core.font-size-20}",
-            "letterSpacing": "{core.letter-spacing--0,6}"
-          },
-          "type": "typography",
-          "description": "Heading 1 for the app"
-        }
-      },
-      "headline": {
-        "semibold": {
-          "value": {
-            "fontFamily": "{core.base-font-family}",
-            "fontWeight": "{core.font-weight-semibold}",
-            "lineHeight": "{core.line-height-24}",
-            "fontSize": "{core.font-size-17}",
-            "letterSpacing": "{core.letter-spacing--0,25}"
-          },
-          "type": "typography",
-          "description": "Heading 1 for the app"
-        }
-      },
-      "body": {
-        "regular": {
-          "value": {
-            "fontFamily": "{core.base-font-family}",
-            "fontWeight": "{core.font-weight-regular}",
-            "lineHeight": "{core.line-height-24}",
-            "fontSize": "{core.font-size-17}",
-            "letterSpacing": "{core.letter-spacing-0}"
-          },
-          "type": "typography",
-          "description": "Regular paragraph"
-        },
-        "semibold": {
-          "value": {
-            "fontFamily": "{core.base-font-family}",
-            "fontWeight": "{core.font-weight-semibold}",
-            "lineHeight": "{core.line-height-24}",
-            "fontSize": "{core.font-size-17}",
-            "letterSpacing": "{core.letter-spacing-0}"
-          },
-          "type": "typography",
-          "description": "Regular paragraph"
-        }
-      },
-      "callout": {
-        "regular": {
-          "value": {
-            "fontFamily": "{core.base-font-family}",
-            "fontWeight": "{core.font-weight-regular}",
-            "lineHeight": "{core.line-height-20}",
-            "fontSize": "{core.font-size-16}",
-            "letterSpacing": "{core.letter-spacing-0}"
-          },
-          "type": "typography",
-          "description": "Regular paragraph"
-        },
-        "semibold": {
-          "value": {
-            "fontFamily": "{core.base-font-family}",
-            "fontWeight": "{core.font-weight-semibold}",
-            "lineHeight": "{core.line-height-20}",
-            "fontSize": "{core.font-size-16}",
-            "letterSpacing": "{core.letter-spacing-0}"
-          },
-          "type": "typography",
-          "description": "Regular paragraph"
-        }
-      },
-      "subhead": {
-        "regular": {
-          "value": {
-            "fontFamily": "{core.base-font-family}",
-            "fontWeight": "{core.font-weight-regular}",
-            "lineHeight": "{core.line-height-20}",
-            "fontSize": "{core.font-size-15}",
-            "letterSpacing": "{core.letter-spacing-0}"
-          },
-          "type": "typography",
-          "description": "Regular paragraph"
-        },
-        "semibold": {
-          "value": {
-            "fontFamily": "{core.base-font-family}",
-            "fontWeight": "{core.font-weight-semibold}",
-            "lineHeight": "{core.line-height-20}",
-            "fontSize": "{core.font-size-15}",
-            "letterSpacing": "{core.letter-spacing-0}"
-          },
-          "type": "typography",
-          "description": "Regular paragraph"
-        }
-      },
-      "footnote": {
-        "regular": {
-          "value": {
-            "fontFamily": "{core.base-font-family}",
-            "fontWeight": "{core.font-weight-regular}",
-            "lineHeight": "{core.line-height-20}",
-            "fontSize": "{core.font-size-13}",
-            "letterSpacing": "{core.letter-spacing-0}"
-          },
-          "type": "typography",
-          "description": "Regular paragraph"
-        },
-        "semibold": {
-          "value": {
-            "fontFamily": "{core.base-font-family}",
-            "fontWeight": "{core.font-weight-semibold}",
-            "lineHeight": "{core.line-height-20}",
-            "fontSize": "{core.font-size-13}",
-            "letterSpacing": "{core.letter-spacing-0}"
-          },
-          "type": "typography",
-          "description": "Regular paragraph"
-        }
-      },
-      "caption 1": {
-        "regular": {
-          "value": {
-            "fontFamily": "{core.base-font-family}",
-            "fontWeight": "{core.font-weight-regular}",
-            "lineHeight": "{core.line-height-16}",
-            "fontSize": "{core.font-size-12}",
-            "letterSpacing": "{core.letter-spacing-0}"
-          },
-          "type": "typography",
-          "description": "Regular paragraph"
-        },
-        "semibold": {
-          "value": {
-            "fontFamily": "{core.base-font-family}",
-            "fontWeight": "{core.font-weight-semibold}",
-            "lineHeight": "{core.line-height-16}",
-            "fontSize": "{core.font-size-12}",
-            "letterSpacing": "{core.letter-spacing-0}"
-          },
-          "type": "typography",
-          "description": "Regular paragraph"
-        }
-      },
-      "caption 2": {
-        "regular": {
-          "value": {
-            "fontFamily": "{core.base-font-family}",
-            "fontWeight": "{core.font-weight-regular}",
-            "lineHeight": "{core.line-height-16}",
-            "fontSize": "{core.font-size-11}",
-            "letterSpacing": "{core.letter-spacing-0}"
-          },
-          "type": "typography",
-          "description": "Regular paragraph"
-        },
-        "semibold": {
-          "value": {
-            "fontFamily": "{core.base-font-family}",
-            "fontWeight": "{core.font-weight-semibold}",
-            "lineHeight": "{core.line-height-16}",
-            "fontSize": "{core.font-size-11}",
-            "letterSpacing": "{core.letter-spacing-0}"
-          },
-          "type": "typography",
-          "description": "Regular paragraph"
         }
       },
       "button": {
-        "regular": {
-          "value": {
-            "fontFamily": "{core.base-font-family}",
-            "fontWeight": "{core.font-weight-semibold}",
-            "lineHeight": "{core.line-height-24}",
-            "fontSize": "{core.font-size-17}",
-            "letterSpacing": "{core.letter-spacing-0}"
+        "color": {
+          "background": {
+            "primary": {
+              "default": {
+                "value": "{core.Shade.900}",
+                "type": "color",
+                "description": "background color for primary buttons in light mode"
+              },
+              "pressed": {
+                "value": "{core.Shade.800}",
+                "type": "color",
+                "description": "background color for primary buttons in light mode"
+              },
+              "disabled": {
+                "value": "{core.Shade.200}",
+                "type": "color",
+                "description": "background color for primary buttons in light mode"
+              }
+            }
           },
-          "type": "typography",
-          "description": "Regular paragraph"
+          "text": {
+            "primary": {
+              "default": {
+                "value": "{core.Shade.000}",
+                "type": "color",
+                "description": "button label color for primary buttons in light mode"
+              },
+              "pressed": {
+                "value": "{core.Shade.400}",
+                "type": "color",
+                "description": "button label color for primary buttons in light mode"
+              },
+              "disabled": {
+                "value": "{core.Shade.400}",
+                "type": "color",
+                "description": "button label color for primary buttons in light mode"
+              }
+            }
+          }
         }
       },
-      "tabbar": {
-        "default": {
-          "value": {
-            "fontFamily": "{core.base-font-family}",
-            "fontWeight": "{core.font-weight-medium}",
-            "lineHeight": "{core.line-height-10}",
-            "fontSize": "{core.font-size-10}",
-            "letterSpacing": "{core.letter-spacing-0}"
-          },
-          "type": "typography",
-          "description": "Regular paragraph"
+      "app general": {
+        "color": {
+          "background": {
+            "default": {
+              "value": "{core.Shade.050}",
+              "type": "color",
+              "description": "default app background color"
+            }
+          }
         }
+      },
+      "battery indicator": {
+        "battery container": {
+          "color": {
+            "border": {
+              "default": {
+                "value": "{core.Shade.300}",
+                "type": "color"
+              },
+              "danger": {
+                "value": "{semantic.light.battery indicator.battery percentage.color.background.danger}",
+                "type": "color"
+              }
+            },
+            "background": {
+              "default": {
+                "value": "{core.Transparent.white-00}",
+                "type": "color"
+              },
+              "disabled": {
+                "value": "{semantic.light.battery indicator.battery container.color.border.default}",
+                "type": "color"
+              }
+            }
+          }
+        },
+        "battery percentage": {
+          "color": {
+            "background": {
+              "default": {
+                "value": "{core.Spring Green.900}",
+                "type": "color"
+              },
+              "warning": {
+                "value": "{core.Yellow.900}",
+                "type": "color"
+              },
+              "danger": {
+                "value": "{core.Coral.700}",
+                "type": "color"
+              }
+            }
+          }
+        }
+      }
+    },
+    "dark": {
+      "text": {
+        "color": {
+          "default": {
+            "value": "{core.Shade.000}",
+            "type": "color",
+            "description": "default text color in dark mode"
+          }
+        }
+      },
+      "button": {
+        "color": {
+          "background": {
+            "primary": {
+              "default": {
+                "value": "{core.Shade.000}",
+                "type": "color",
+                "description": "background color for primary buttons in light mode"
+              },
+              "pressed": {
+                "value": "{core.Shade.050}",
+                "type": "color",
+                "description": "background color for primary buttons in light mode"
+              },
+              "disabled": {
+                "value": "{core.Shade.000}",
+                "type": "color",
+                "description": "background color for primary buttons in light mode"
+              }
+            }
+          },
+          "text": {
+            "primary": {
+              "default": {
+                "value": "{core.Shade.900}",
+                "type": "color",
+                "description": "button label color for primary buttons in light mode"
+              },
+              "pressed": {
+                "value": "{core.Shade.600}",
+                "type": "color",
+                "description": "button label color for primary buttons in light mode"
+              },
+              "disabled": {
+                "value": "{core.Shade.400}",
+                "type": "color",
+                "description": "button label color for primary buttons in light mode"
+              }
+            }
+          }
+        }
+      },
+      "app general": {
+        "color": {
+          "background": {
+            "default": {
+              "value": "{core.Shade.900}",
+              "type": "color",
+              "description": "default app background color"
+            }
+          }
+        }
+      },
+      "battery indicator": {
+        "battery container": {
+          "color": {
+            "border": {
+              "default": {
+                "value": "{core.Shade.500}",
+                "type": "color"
+              },
+              "danger": {
+                "value": "{semantic.light.battery indicator.battery percentage.color.background.danger}",
+                "type": "color"
+              }
+            },
+            "background": {
+              "default": {
+                "value": "{core.Transparent.white-00}",
+                "type": "color"
+              },
+              "disabled": {
+                "value": "{semantic.dark.battery indicator.battery container.color.border.default}",
+                "type": "color"
+              }
+            }
+          }
+        },
+        "battery percentage": {
+          "color": {
+            "background": {
+              "default": {
+                "value": "{core.Spring Green.900}",
+                "type": "color"
+              },
+              "warning": {
+                "value": "{core.Yellow.900}",
+                "type": "color"
+              },
+              "danger": {
+                "value": "{core.Coral.700}",
+                "type": "color"
+              }
+            }
+          }
+        }
+      }
+    },
+    "title 1": {
+      "regular": {
+        "value": {
+          "fontFamily": "{core.base-font-family}",
+          "fontWeight": "{core.font-weight-regular}",
+          "lineHeight": "{core.line-height-32}",
+          "fontSize": "{core.font-size-28}",
+          "letterSpacing": "{core.letter-spacing--1,1}"
+        },
+        "type": "typography",
+        "description": "Heading 1 for the app"
+      },
+      "semibold": {
+        "value": {
+          "fontFamily": "{core.base-font-family}",
+          "fontWeight": "{core.font-weight-semibold}",
+          "lineHeight": "{core.line-height-32}",
+          "fontSize": "{core.font-size-28}",
+          "letterSpacing": "{core.letter-spacing--1,1}"
+        },
+        "type": "typography",
+        "description": "Heading 1 for the app"
+      }
+    },
+    "title 2": {
+      "regular": {
+        "value": {
+          "fontFamily": "{core.base-font-family}",
+          "fontWeight": "{core.font-weight-regular}",
+          "lineHeight": "{core.line-height-32}",
+          "fontSize": "{core.font-size-22}",
+          "letterSpacing": "{core.letter-spacing--0,9}"
+        },
+        "type": "typography",
+        "description": "Heading 1 for the app"
+      },
+      "medium": {
+        "value": {
+          "fontFamily": "{core.base-font-family}",
+          "fontWeight": "{core.font-weight-medium}",
+          "lineHeight": "{core.line-height-32}",
+          "fontSize": "{core.font-size-22}",
+          "letterSpacing": "{core.letter-spacing--0,9}"
+        },
+        "type": "typography",
+        "description": "Heading 1 for the app"
+      },
+      "semibold": {
+        "value": {
+          "fontFamily": "{core.base-font-family}",
+          "fontWeight": "{core.font-weight-semibold}",
+          "lineHeight": "{core.line-height-32}",
+          "fontSize": "{core.font-size-22}",
+          "letterSpacing": "{core.letter-spacing--0,9}"
+        },
+        "type": "typography",
+        "description": "Heading 1 for the app"
+      }
+    },
+    "title 3": {
+      "medium": {
+        "value": {
+          "fontFamily": "{core.base-font-family}",
+          "fontWeight": "{core.font-weight-medium}",
+          "lineHeight": "{core.line-height-24}",
+          "fontSize": "{core.font-size-20}",
+          "letterSpacing": "{core.letter-spacing--0,6}"
+        },
+        "type": "typography",
+        "description": "Heading 1 for the app"
+      }
+    },
+    "headline": {
+      "semibold": {
+        "value": {
+          "fontFamily": "{core.base-font-family}",
+          "fontWeight": "{core.font-weight-semibold}",
+          "lineHeight": "{core.line-height-24}",
+          "fontSize": "{core.font-size-17}",
+          "letterSpacing": "{core.letter-spacing--0,25}"
+        },
+        "type": "typography",
+        "description": "Heading 1 for the app"
+      }
+    },
+    "body": {
+      "regular": {
+        "value": {
+          "fontFamily": "{core.base-font-family}",
+          "fontWeight": "{core.font-weight-regular}",
+          "lineHeight": "{core.line-height-24}",
+          "fontSize": "{core.font-size-17}",
+          "letterSpacing": "{core.letter-spacing-0}"
+        },
+        "type": "typography",
+        "description": "Regular paragraph"
+      },
+      "semibold": {
+        "value": {
+          "fontFamily": "{core.base-font-family}",
+          "fontWeight": "{core.font-weight-semibold}",
+          "lineHeight": "{core.line-height-24}",
+          "fontSize": "{core.font-size-17}",
+          "letterSpacing": "{core.letter-spacing-0}"
+        },
+        "type": "typography",
+        "description": "Regular paragraph"
+      }
+    },
+    "callout": {
+      "regular": {
+        "value": {
+          "fontFamily": "{core.base-font-family}",
+          "fontWeight": "{core.font-weight-regular}",
+          "lineHeight": "{core.line-height-20}",
+          "fontSize": "{core.font-size-16}",
+          "letterSpacing": "{core.letter-spacing-0}"
+        },
+        "type": "typography",
+        "description": "Regular paragraph"
+      },
+      "semibold": {
+        "value": {
+          "fontFamily": "{core.base-font-family}",
+          "fontWeight": "{core.font-weight-semibold}",
+          "lineHeight": "{core.line-height-20}",
+          "fontSize": "{core.font-size-16}",
+          "letterSpacing": "{core.letter-spacing-0}"
+        },
+        "type": "typography",
+        "description": "Regular paragraph"
+      }
+    },
+    "subhead": {
+      "regular": {
+        "value": {
+          "fontFamily": "{core.base-font-family}",
+          "fontWeight": "{core.font-weight-regular}",
+          "lineHeight": "{core.line-height-20}",
+          "fontSize": "{core.font-size-15}",
+          "letterSpacing": "{core.letter-spacing-0}"
+        },
+        "type": "typography",
+        "description": "Regular paragraph"
+      },
+      "semibold": {
+        "value": {
+          "fontFamily": "{core.base-font-family}",
+          "fontWeight": "{core.font-weight-semibold}",
+          "lineHeight": "{core.line-height-20}",
+          "fontSize": "{core.font-size-15}",
+          "letterSpacing": "{core.letter-spacing-0}"
+        },
+        "type": "typography",
+        "description": "Regular paragraph"
+      }
+    },
+    "footnote": {
+      "regular": {
+        "value": {
+          "fontFamily": "{core.base-font-family}",
+          "fontWeight": "{core.font-weight-regular}",
+          "lineHeight": "{core.line-height-20}",
+          "fontSize": "{core.font-size-13}",
+          "letterSpacing": "{core.letter-spacing-0}"
+        },
+        "type": "typography",
+        "description": "Regular paragraph"
+      },
+      "semibold": {
+        "value": {
+          "fontFamily": "{core.base-font-family}",
+          "fontWeight": "{core.font-weight-semibold}",
+          "lineHeight": "{core.line-height-20}",
+          "fontSize": "{core.font-size-13}",
+          "letterSpacing": "{core.letter-spacing-0}"
+        },
+        "type": "typography",
+        "description": "Regular paragraph"
+      }
+    },
+    "caption 1": {
+      "regular": {
+        "value": {
+          "fontFamily": "{core.base-font-family}",
+          "fontWeight": "{core.font-weight-regular}",
+          "lineHeight": "{core.line-height-16}",
+          "fontSize": "{core.font-size-12}",
+          "letterSpacing": "{core.letter-spacing-0}"
+        },
+        "type": "typography",
+        "description": "Regular paragraph"
+      },
+      "semibold": {
+        "value": {
+          "fontFamily": "{core.base-font-family}",
+          "fontWeight": "{core.font-weight-semibold}",
+          "lineHeight": "{core.line-height-16}",
+          "fontSize": "{core.font-size-12}",
+          "letterSpacing": "{core.letter-spacing-0}"
+        },
+        "type": "typography",
+        "description": "Regular paragraph"
+      }
+    },
+    "caption 2": {
+      "regular": {
+        "value": {
+          "fontFamily": "{core.base-font-family}",
+          "fontWeight": "{core.font-weight-regular}",
+          "lineHeight": "{core.line-height-16}",
+          "fontSize": "{core.font-size-11}",
+          "letterSpacing": "{core.letter-spacing-0}"
+        },
+        "type": "typography",
+        "description": "Regular paragraph"
+      },
+      "semibold": {
+        "value": {
+          "fontFamily": "{core.base-font-family}",
+          "fontWeight": "{core.font-weight-semibold}",
+          "lineHeight": "{core.line-height-16}",
+          "fontSize": "{core.font-size-11}",
+          "letterSpacing": "{core.letter-spacing-0}"
+        },
+        "type": "typography",
+        "description": "Regular paragraph"
+      }
+    },
+    "button": {
+      "regular": {
+        "value": {
+          "fontFamily": "{core.base-font-family}",
+          "fontWeight": "{core.font-weight-semibold}",
+          "lineHeight": "{core.line-height-24}",
+          "fontSize": "{core.font-size-17}",
+          "letterSpacing": "{core.letter-spacing-0}"
+        },
+        "type": "typography",
+        "description": "Regular paragraph"
+      }
+    },
+    "tabbar": {
+      "default": {
+        "value": {
+          "fontFamily": "{core.base-font-family}",
+          "fontWeight": "{core.font-weight-medium}",
+          "lineHeight": "{core.line-height-10}",
+          "fontSize": "{core.font-size-10}",
+          "letterSpacing": "{core.letter-spacing-0}"
+        },
+        "type": "typography",
+        "description": "Regular paragraph"
       }
     }
   },
