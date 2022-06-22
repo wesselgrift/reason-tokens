@@ -733,14 +733,14 @@
         "color": {
           "light": {
             "default": {
-              "value": "{core.Shade.900}",
+              "value": "{core colors.Shade.900}",
               "type": "color",
               "description": "default text color in dark mode"
             }
           },
           "dark": {
             "default": {
-              "value": "{core.Shade.000}",
+              "value": "{core colors.Shade.000}",
               "type": "color",
               "description": "default text color in dark mode"
             }
@@ -753,34 +753,34 @@
             "primary": {
               "light": {
                 "default": {
-                  "value": "{core.Shade.900}",
+                  "value": "{core colors.Shade.900}",
                   "type": "color",
                   "description": "background color for primary buttons in light mode"
                 },
                 "pressed": {
-                  "value": "{core.Shade.800}",
+                  "value": "{core colors.Shade.800}",
                   "type": "color",
                   "description": "background color for primary buttons in light mode"
                 },
                 "disabled": {
-                  "value": "{core.Shade.200}",
+                  "value": "{core colors.Shade.200}",
                   "type": "color",
                   "description": "background color for primary buttons in light mode"
                 }
               },
               "dark": {
                 "default": {
-                  "value": "{core.Shade.000}",
+                  "value": "{core colors.Shade.000}",
                   "type": "color",
                   "description": "background color for primary buttons in light mode"
                 },
                 "pressed": {
-                  "value": "{core.Shade.050}",
+                  "value": "{core colors.Shade.050}",
                   "type": "color",
                   "description": "background color for primary buttons in light mode"
                 },
                 "disabled": {
-                  "value": "{core.Shade.000}",
+                  "value": "{core colors.Shade.000}",
                   "type": "color",
                   "description": "background color for primary buttons in light mode"
                 }
@@ -791,34 +791,34 @@
             "primary": {
               "light": {
                 "default": {
-                  "value": "{core.Shade.000}",
+                  "value": "{core colors.Shade.000}",
                   "type": "color",
                   "description": "button label color for primary buttons in light mode"
                 },
                 "pressed": {
-                  "value": "{core.Shade.400}",
+                  "value": "{core colors.Shade.400}",
                   "type": "color",
                   "description": "button label color for primary buttons in light mode"
                 },
                 "disabled": {
-                  "value": "{core.Shade.400}",
+                  "value": "{core colors.Shade.400}",
                   "type": "color",
                   "description": "button label color for primary buttons in light mode"
                 }
               },
               "dark": {
                 "default": {
-                  "value": "{core.Shade.900}",
+                  "value": "{core colors.Shade.900}",
                   "type": "color",
                   "description": "button label color for primary buttons in light mode"
                 },
                 "pressed": {
-                  "value": "{core.Shade.600}",
+                  "value": "{core colors.Shade.600}",
                   "type": "color",
                   "description": "button label color for primary buttons in light mode"
                 },
                 "disabled": {
-                  "value": "{core.Shade.300}",
+                  "value": "{core colors.Shade.300}",
                   "type": "color",
                   "description": "button label color for primary buttons in light mode"
                 }
@@ -832,14 +832,14 @@
           "background": {
             "light": {
               "default": {
-                "value": "{core.Shade.050}",
+                "value": "{core colors.Shade.050}",
                 "type": "color",
                 "description": "default app background color"
               }
             },
             "dark": {
               "default": {
-                "value": "{core.Shade.900}",
+                "value": "{core colors.Shade.900}",
                 "type": "color",
                 "description": "default app background color"
               }
@@ -853,13 +853,13 @@
             "border": {
               "light": {
                 "default": {
-                  "value": "{core.Shade.300}",
+                  "value": "{core colors.Shade.300}",
                   "type": "color"
                 }
               },
               "dark": {
                 "default": {
-                  "value": "{core.Shade.500}",
+                  "value": "{core colors.Shade.500}",
                   "type": "color"
                 }
               }
@@ -867,21 +867,21 @@
             "background": {
               "light": {
                 "default": {
-                  "value": "{core.Transparent.white-00}",
+                  "value": "{core colors.Transparent.white-00}",
                   "type": "color"
                 },
                 "disabled": {
-                  "value": "{semantic.battery indicator.battery container.color.border.light.default}",
+                  "value": "{semantic colors.battery indicator.battery container.color.border.light.default}",
                   "type": "color"
                 }
               },
               "dark": {
                 "default": {
-                  "value": "{core.Transparent.white-00}",
+                  "value": "{core colors.Transparent.white-00}",
                   "type": "color"
                 },
                 "disabled": {
-                  "value": "{semantic.battery indicator.battery container.color.border.dark.default}",
+                  "value": "{semantic colors.battery indicator.battery container.color.border.dark.default}",
                   "type": "color"
                 }
               }
@@ -893,29 +893,29 @@
             "background": {
               "light": {
                 "default": {
-                  "value": "{core.Spring Green.900}",
+                  "value": "{core colors.Spring Green.900}",
                   "type": "color"
                 },
                 "warning": {
-                  "value": "{core.Yellow.900}",
+                  "value": "{core colors.Yellow.900}",
                   "type": "color"
                 },
                 "danger": {
-                  "value": "{core.Coral.700}",
+                  "value": "{core colors.Coral.700}",
                   "type": "color"
                 }
               },
               "dark": {
                 "default": {
-                  "value": "{core.Spring Green.900}",
+                  "value": "{core colors.Spring Green.900}",
                   "type": "color"
                 },
                 "warning": {
-                  "value": "{core.Yellow.900}",
+                  "value": "{core colors.Yellow.900}",
                   "type": "color"
                 },
                 "danger": {
-                  "value": "{core.Coral.700}",
+                  "value": "{core colors.Coral.700}",
                   "type": "color"
                 }
               }
