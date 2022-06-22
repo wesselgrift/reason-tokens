@@ -1172,7 +1172,7 @@
               "type": "color"
             },
             "disabled": {
-              "value": "{battery indicator.battery container.color.border.default}",
+              "value": "{Shade.700}",
               "type": "color"
             }
           }
