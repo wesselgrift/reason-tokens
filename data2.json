@@ -799,6 +799,10 @@
                 "default": {
                   "value": "{core.Shade.300}",
                   "type": "color"
+                },
+                "danger": {
+                  "value": "{semantic.light.battery indicator.battery percentage.color.background.danger}",
+                  "type": "color"
                 }
               },
               "background": {
@@ -901,7 +905,11 @@
             "color": {
               "border": {
                 "default": {
-                  "value": "{core.Shade.300}",
+                  "value": "{core.Shade.500}",
+                  "type": "color"
+                },
+                "danger": {
+                  "value": "{semantic.light.battery indicator.battery percentage.color.background.danger}",
                   "type": "color"
                 }
               },
