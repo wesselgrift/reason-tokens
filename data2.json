@@ -893,7 +893,7 @@
           "color": {
             "background": {
               "default": {
-                "value": "{core.Shade.050}",
+                "value": "{core.Shade.900}",
                 "type": "color",
                 "description": "default app background color"
               }
