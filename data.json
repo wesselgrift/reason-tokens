@@ -857,6 +857,20 @@
                   "type": "color"
                 }
               }
+            },
+            "background": {
+              "light": {
+                "disabled": {
+                  "value": "{semantic.battery indicator.battery container.color.border.light.default}",
+                  "type": "color"
+                }
+              },
+              "dark": {
+                "disabled": {
+                  "value": "{semantic.battery indicator.battery container.color.border.dark.default}",
+                  "type": "color"
+                }
+              }
             }
           }
         },
