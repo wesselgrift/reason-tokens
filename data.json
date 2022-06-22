@@ -813,7 +813,7 @@
                   "description": "button label color for primary buttons in light mode"
                 },
                 "pressed": {
-                  "value": "{core.Shade.500}",
+                  "value": "{core.Shade.600}",
                   "type": "color",
                   "description": "button label color for primary buttons in light mode"
                 },
