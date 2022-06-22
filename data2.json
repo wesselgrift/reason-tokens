@@ -718,10 +718,212 @@
           "value": "#1ACF78",
           "type": "color"
         }
+      },
+      "Transparent": {
+        "white-00": {
+          "value": "rgba(0,0,0,0)",
+          "type": "color"
+        }
       }
     }
   },
   "App": {
+    "semantic": {
+      "text": {
+        "color": {
+          "light": {
+            "default": {
+              "value": "{core.Shade.900}",
+              "type": "color",
+              "description": "default text color in dark mode"
+            }
+          },
+          "dark": {
+            "default": {
+              "value": "{core.Shade.000}",
+              "type": "color",
+              "description": "default text color in dark mode"
+            }
+          }
+        }
+      },
+      "button": {
+        "color": {
+          "background": {
+            "primary": {
+              "light": {
+                "default": {
+                  "value": "{core.Shade.900}",
+                  "type": "color",
+                  "description": "background color for primary buttons in light mode"
+                },
+                "pressed": {
+                  "value": "{core.Shade.800}",
+                  "type": "color",
+                  "description": "background color for primary buttons in light mode"
+                },
+                "disabled": {
+                  "value": "{core.Shade.200}",
+                  "type": "color",
+                  "description": "background color for primary buttons in light mode"
+                }
+              },
+              "dark": {
+                "default": {
+                  "value": "{core.Shade.000}",
+                  "type": "color",
+                  "description": "background color for primary buttons in light mode"
+                },
+                "pressed": {
+                  "value": "{core.Shade.050}",
+                  "type": "color",
+                  "description": "background color for primary buttons in light mode"
+                },
+                "disabled": {
+                  "value": "{core.Shade.000}",
+                  "type": "color",
+                  "description": "background color for primary buttons in light mode"
+                }
+              }
+            }
+          },
+          "text": {
+            "primary": {
+              "light": {
+                "default": {
+                  "value": "{core.Shade.000}",
+                  "type": "color",
+                  "description": "button label color for primary buttons in light mode"
+                },
+                "pressed": {
+                  "value": "{core.Shade.400}",
+                  "type": "color",
+                  "description": "button label color for primary buttons in light mode"
+                },
+                "disabled": {
+                  "value": "{core.Shade.400}",
+                  "type": "color",
+                  "description": "button label color for primary buttons in light mode"
+                }
+              },
+              "dark": {
+                "default": {
+                  "value": "{core.Shade.900}",
+                  "type": "color",
+                  "description": "button label color for primary buttons in light mode"
+                },
+                "pressed": {
+                  "value": "{core.Shade.600}",
+                  "type": "color",
+                  "description": "button label color for primary buttons in light mode"
+                },
+                "disabled": {
+                  "value": "{core.Shade.300}",
+                  "type": "color",
+                  "description": "button label color for primary buttons in light mode"
+                }
+              }
+            }
+          }
+        }
+      },
+      "app general": {
+        "color": {
+          "background": {
+            "light": {
+              "default": {
+                "value": "{core.Shade.050}",
+                "type": "color",
+                "description": "default app background color"
+              }
+            },
+            "dark": {
+              "default": {
+                "value": "{core.Shade.900}",
+                "type": "color",
+                "description": "default app background color"
+              }
+            }
+          }
+        }
+      },
+      "battery indicator": {
+        "battery container": {
+          "color": {
+            "border": {
+              "light": {
+                "default": {
+                  "value": "{core.Shade.300}",
+                  "type": "color"
+                }
+              },
+              "dark": {
+                "default": {
+                  "value": "{core.Shade.500}",
+                  "type": "color"
+                }
+              }
+            },
+            "background": {
+              "light": {
+                "default": {
+                  "value": "{core.Transparent.white-00}",
+                  "type": "color"
+                },
+                "disabled": {
+                  "value": "{semantic.battery indicator.battery container.color.border.light.default}",
+                  "type": "color"
+                }
+              },
+              "dark": {
+                "default": {
+                  "value": "{core.Transparent.white-00}",
+                  "type": "color"
+                },
+                "disabled": {
+                  "value": "{semantic.battery indicator.battery container.color.border.dark.default}",
+                  "type": "color"
+                }
+              }
+            }
+          }
+        },
+        "battery percentage": {
+          "color": {
+            "background": {
+              "light": {
+                "default": {
+                  "value": "{core.Spring Green.900}",
+                  "type": "color"
+                },
+                "warning": {
+                  "value": "{core.Yellow.900}",
+                  "type": "color"
+                },
+                "danger": {
+                  "value": "{core.Coral.700}",
+                  "type": "color"
+                }
+              },
+              "dark": {
+                "default": {
+                  "value": "{core.Spring Green.900}",
+                  "type": "color"
+                },
+                "warning": {
+                  "value": "{core.Yellow.900}",
+                  "type": "color"
+                },
+                "danger": {
+                  "value": "{core.Coral.700}",
+                  "type": "color"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "title 1": {
       "regular": {
         "value": {
@@ -978,7 +1180,5 @@
       }
     }
   },
-  "App/Light": {},
-  "App/Dark": {},
   "$themes": []
 }
