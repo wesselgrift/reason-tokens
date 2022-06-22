@@ -1146,7 +1146,7 @@
       "color": {
         "background": {
           "default": {
-            "value": "{Shade.050}",
+            "value": "{Shade.900}",
             "type": "color",
             "description": "default app background color"
           }
