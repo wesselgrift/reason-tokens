@@ -718,6 +718,12 @@
           "value": "#1ACF78",
           "type": "color"
         }
+      },
+      "Transparent": {
+        "white-00": {
+          "value": "rgba(0,0,0,0)",
+          "type": "color"
+        }
       }
     }
   },
@@ -860,12 +866,20 @@
             },
             "background": {
               "light": {
+                "default": {
+                  "value": "{core.Transparent.white-00}",
+                  "type": "color"
+                },
                 "disabled": {
                   "value": "{semantic.battery indicator.battery container.color.border.light.default}",
                   "type": "color"
                 }
               },
               "dark": {
+                "default": {
+                  "value": "{core.Transparent.white-00}",
+                  "type": "color"
+                },
                 "disabled": {
                   "value": "{semantic.battery indicator.battery container.color.border.dark.default}",
                   "type": "color"
