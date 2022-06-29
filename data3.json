@@ -993,7 +993,7 @@
       }
     }
   },
-  "App/Light Theme": {
+  "App/Light": {
     "Bottombar": {
       "value": "{boxshadow-elevation-1}",
       "type": "boxShadow"
@@ -1024,9 +1024,11 @@
         }
       },
       "Background": {
-        "Default": {
-          "value": "{Shade.000}",
-          "type": "color"
+        "Fill": {
+          "Default": {
+            "value": "{Shade.000}",
+            "type": "color"
+          }
         }
       }
     }
