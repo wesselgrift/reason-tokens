@@ -1010,6 +1010,30 @@
           }
         }
       }
+    },
+    "Button": {
+      "Primary": {
+        "Background": {
+          "Fill": {
+            "Default": {
+              "value": "{Shade.900}",
+              "type": "color"
+            },
+            "Pressed": {
+              "value": "{Shade.700}",
+              "type": "color"
+            }
+          }
+        },
+        "Label": {
+          "Fill": {
+            "Default": {
+              "value": "{Shade.000}",
+              "type": "color"
+            }
+          }
+        }
+      }
     }
   },
   "$themes": []
