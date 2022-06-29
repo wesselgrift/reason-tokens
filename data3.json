@@ -973,11 +973,11 @@
     }
   },
   "App/Light": {
-    "Bottombar": {
+    "Bottom Navigation Bar": {
       "value": "{boxshadow-elevation-1}",
       "type": "boxShadow"
     },
-    "BottomBar": {
+    "BottomNavigationBar": {
       "Icon": {
         "Fill": {
           "Active": {
