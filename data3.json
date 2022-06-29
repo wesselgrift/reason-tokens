@@ -723,6 +723,17 @@
         "value": "rgba(0,0,0,0)",
         "type": "color"
       }
+    },
+    "boxshadow-elevation-1": {
+      "value": {
+        "x": "0",
+        "y": "-0.5",
+        "blur": "10",
+        "spread": "0",
+        "color": "rgba(0,0,0,0.1)",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
     }
   },
   "App/Typography": {
@@ -1088,6 +1099,34 @@
           }
         }
       }
+    },
+    "bottombar": {
+      "color": {
+        "background": {
+          "default": {
+            "value": "{Shade.000}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "bottombar-icon": {
+      "color": {
+        "fill": {
+          "active": {
+            "value": "{Shade.900}",
+            "type": "color"
+          },
+          "inactive": {
+            "value": "{Shade.500}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "Bottombar": {
+      "value": "{boxshadow-elevation-1}",
+      "type": "boxShadow"
     }
   },
   "App/Dark Theme": {
@@ -1193,6 +1232,16 @@
               "value": "{Coral.700}",
               "type": "color"
             }
+          }
+        }
+      }
+    },
+    "bottombar": {
+      "color": {
+        "background": {
+          "default": {
+            "value": "{Shade.700}",
+            "type": "color"
           }
         }
       }
