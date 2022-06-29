@@ -1044,6 +1044,22 @@
               "type": "color"
             }
           }
+        },
+        "Icon": {
+          "Fill": {
+            "Default": {
+              "value": "{Shade.000}",
+              "type": "color"
+            },
+            "Pressed": {
+              "value": "{Shade.000}",
+              "type": "color"
+            },
+            "Disabled": {
+              "value": "{Shade.500}",
+              "type": "color"
+            }
+          }
         }
       }
     }
