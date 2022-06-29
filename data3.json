@@ -994,292 +994,38 @@
     }
   },
   "App/Light Theme": {
-    "text": {
-      "color": {
-        "default": {
-          "value": "{Shade.900}",
-          "type": "color",
-          "description": "default text color in dark mode"
-        }
-      }
-    },
-    "button": {
-      "color": {
-        "background": {
-          "primary": {
-            "default": {
-              "value": "{Shade.900}",
-              "type": "color",
-              "description": "background color for primary buttons in light mode"
-            },
-            "pressed": {
-              "value": "{Shade.800}",
-              "type": "color",
-              "description": "background color for primary buttons in light mode"
-            },
-            "disabled": {
-              "value": "{Shade.200}",
-              "type": "color",
-              "description": "background color for primary buttons in light mode"
-            }
-          }
-        },
-        "text": {
-          "primary": {
-            "default": {
-              "value": "{Shade.000}",
-              "type": "color",
-              "description": "button label color for primary buttons in light mode"
-            },
-            "pressed": {
-              "value": "{Shade.400}",
-              "type": "color",
-              "description": "button label color for primary buttons in light mode"
-            },
-            "disabled": {
-              "value": "{Shade.400}",
-              "type": "color",
-              "description": "button label color for primary buttons in light mode"
-            }
-          }
-        }
-      }
-    },
-    "app general": {
-      "color": {
-        "background": {
-          "default": {
-            "value": "{Shade.050}",
-            "type": "color",
-            "description": "default app background color"
-          }
-        }
-      }
-    },
-    "battery indicator": {
-      "battery container": {
-        "color": {
-          "border": {
-            "default": {
-              "value": "{Shade.300}",
-              "type": "color"
-            },
-            "danger": {
-              "value": "{battery indicator.battery percentage.color.background.danger}",
-              "type": "color"
-            }
-          },
-          "background": {
-            "default": {
-              "value": "{Transparent.white-00}",
-              "type": "color"
-            },
-            "disabled": {
-              "value": "{battery indicator.battery container.color.border.default}",
-              "type": "color"
-            }
-          }
-        }
-      },
-      "battery percentage": {
-        "color": {
-          "background": {
-            "default": {
-              "value": "{Spring Green.900}",
-              "type": "color"
-            },
-            "warning": {
-              "value": "{Yellow.900}",
-              "type": "color"
-            },
-            "danger": {
-              "value": "{Coral.700}",
-              "type": "color"
-            }
-          }
-        }
-      }
-    },
-    "bottombar": {
-      "color": {
-        "background": {
-          "default": {
-            "value": "{Shade.000}",
-            "type": "color"
-          }
-        }
-      }
-    },
-    "bottombar-icon": {
-      "color": {
-        "fill": {
-          "active": {
-            "value": "{Shade.900}",
-            "type": "color"
-          },
-          "inactive": {
-            "value": "{Shade.600}",
-            "type": "color"
-          }
-        }
-      }
-    },
     "Bottombar": {
       "value": "{boxshadow-elevation-1}",
       "type": "boxShadow"
     },
-    "bottombar-label": {
-      "color": {
-        "active": {
-          "value": "{Shade.900}",
-          "type": "color"
-        },
-        "inactive": {
-          "value": "{Shade.600}",
-          "type": "color"
-        }
-      }
-    }
-  },
-  "App/Dark Theme": {
-    "text": {
-      "color": {
-        "default": {
-          "value": "{Shade.000}",
-          "type": "color",
-          "description": "default text color in dark mode"
-        }
-      }
-    },
-    "button": {
-      "color": {
-        "background": {
-          "primary": {
-            "default": {
-              "value": "{Shade.000}",
-              "type": "color",
-              "description": "background color for primary buttons in light mode"
-            },
-            "pressed": {
-              "value": "{Shade.050}",
-              "type": "color",
-              "description": "background color for primary buttons in light mode"
-            },
-            "disabled": {
-              "value": "{Shade.000}",
-              "type": "color",
-              "description": "background color for primary buttons in light mode"
-            }
-          }
-        },
-        "text": {
-          "primary": {
-            "default": {
-              "value": "{Shade.900}",
-              "type": "color",
-              "description": "button label color for primary buttons in light mode"
-            },
-            "pressed": {
-              "value": "{Shade.600}",
-              "type": "color",
-              "description": "button label color for primary buttons in light mode"
-            },
-            "disabled": {
-              "value": "{Shade.400}",
-              "type": "color",
-              "description": "button label color for primary buttons in light mode"
-            }
-          }
-        }
-      }
-    },
-    "app general": {
-      "color": {
-        "background": {
-          "default": {
+    "BottomBar": {
+      "Icon": {
+        "Fill": {
+          "Active": {
             "value": "{Shade.900}",
-            "type": "color",
-            "description": "default app background color"
-          }
-        }
-      }
-    },
-    "battery indicator": {
-      "battery container": {
-        "color": {
-          "border": {
-            "default": {
-              "value": "{Shade.500}",
-              "type": "color"
-            },
-            "danger": {
-              "value": "{battery indicator.battery percentage.color.background.danger}",
-              "type": "color"
-            }
+            "type": "color"
           },
-          "background": {
-            "default": {
-              "value": "{Transparent.white-00}",
-              "type": "color"
-            },
-            "disabled": {
-              "value": "{Shade.700}",
-              "type": "color"
-            }
+          "Inactive": {
+            "value": "{Shade.500}",
+            "type": "color"
           }
         }
       },
-      "battery percentage": {
-        "color": {
-          "background": {
-            "default": {
-              "value": "{Spring Green.900}",
-              "type": "color"
-            },
-            "warning": {
-              "value": "{Yellow.900}",
-              "type": "color"
-            },
-            "danger": {
-              "value": "{Coral.700}",
-              "type": "color"
-            }
-          }
-        }
-      }
-    },
-    "bottombar": {
-      "color": {
-        "background": {
-          "default": {
-            "value": "{Shade.800}",
-            "type": "color"
-          }
-        }
-      }
-    },
-    "bottombar-icon": {
-      "color": {
-        "fill": {
-          "active": {
-            "value": "{Shade.000}",
+      "Label": {
+        "Fill": {
+          "Active": {
+            "value": "{Shade.900}",
             "type": "color"
           },
-          "inactive": {
-            "value": "{Shade.400}",
+          "Inactive": {
+            "value": "{Shade.500}",
             "type": "color"
           }
         }
-      }
-    },
-    "bottombar-label": {
-      "color": {
-        "active": {
+      },
+      "Background": {
+        "Default": {
           "value": "{Shade.000}",
-          "type": "color"
-        },
-        "inactive": {
-          "value": "{Shade.400}",
           "type": "color"
         }
       }
