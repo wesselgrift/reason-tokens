@@ -1022,6 +1022,10 @@
             "Pressed": {
               "value": "{Shade.700}",
               "type": "color"
+            },
+            "Disabled": {
+              "value": "{Shade.200}",
+              "type": "color"
             }
           }
         },
@@ -1029,6 +1033,14 @@
           "Fill": {
             "Default": {
               "value": "{Shade.000}",
+              "type": "color"
+            },
+            "Pressed": {
+              "value": "{Shade.000}",
+              "type": "color"
+            },
+            "Disabled": {
+              "value": "{Shade.500}",
               "type": "color"
             }
           }
