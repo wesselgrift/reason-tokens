@@ -1391,44 +1391,94 @@
         }
       }
     },
-    "BatteryIndicatorIcon": {
-      "Border": {
-        "Fill": {
-          "Default": {
-            "value": "{Shade.300}",
-            "type": "color"
-          },
-          "Danger": {
-            "value": "{Coral.600}",
-            "type": "color"
+    "BatteryIndicator": {
+      "Default": {
+        "Border": {
+          "Fill": {
+            "Default": {
+              "value": "{Shade.200}",
+              "type": "color"
+            }
+          }
+        },
+        "Percentage": {
+          "Fill": {
+            "Default": {
+              "value": "{Spring Green.900}",
+              "type": "color"
+            }
           }
         }
       },
-      "Background": {
-        "Fill": {
-          "Default": {
-            "value": "{Transparent.white-00}",
-            "type": "color"
-          },
-          "Disabled": {
-            "value": "{Shade.300}",
-            "type": "color"
+      "Warning": {
+        "Border": {
+          "Fill": {
+            "Default": {
+              "value": "{Shade.200}",
+              "type": "color"
+            }
+          }
+        },
+        "Percentage": {
+          "Fill": {
+            "Default": {
+              "value": "{Yellow.900}",
+              "type": "color"
+            }
           }
         }
       },
-      "Capacity": {
-        "Fill": {
-          "Default": {
-            "value": "{Spring Green.900}",
-            "type": "color"
-          },
-          "Warning": {
-            "value": "{Yellow.900}",
-            "type": "color"
-          },
-          "Danger": {
-            "value": "{Coral.600}",
-            "type": "color"
+      "Danger": {
+        "Border": {
+          "Fill": {
+            "Default": {
+              "value": "{Coral.600}",
+              "type": "color"
+            }
+          }
+        },
+        "Percentage": {
+          "Fill": {
+            "Default": {
+              "value": "{Coral.600}",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "NoData": {
+        "Border": {
+          "Fill": {
+            "Default": {
+              "value": "{Shade.200}",
+              "type": "color"
+            }
+          }
+        },
+        "Percentage": {
+          "Fill": {
+            "Default": {
+              "value": "{Shade.200}",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "Disabled": {
+        "Border": {
+          "Fill": {
+            "Default": {
+              "value": "{Shade.200}",
+              "type": "color"
+            }
+          }
+        },
+        "Percentage": {
+          "Fill": {
+            "Default": {
+              "value": "{Shade.200}",
+              "type": "color"
+            }
           }
         }
       }
