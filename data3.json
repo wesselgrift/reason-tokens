@@ -1212,6 +1212,16 @@
           "type": "color"
         }
       }
+    },
+    "General": {
+      "Background": {
+        "Fill": {
+          "Default": {
+            "value": "{Shade.050}",
+            "type": "color"
+          }
+        }
+      }
     }
   },
   "$themes": []
