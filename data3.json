@@ -727,6 +727,10 @@
         "value": "rgba(0,0,0,0)",
         "type": "color"
       },
+      "white-30": {
+        "value": "rgba(255,255,255,0.3)",
+        "type": "color"
+      },
       "white-50": {
         "value": "rgba(255,255,255,0.5)",
         "type": "color"
@@ -1148,21 +1152,19 @@
       }
     },
     "Spinner": {
-      "OnDarkBackground": {
-        "Slice": {
-          "Fill": {
-            "Default": {
-              "value": "{Shade.000}",
-              "type": "color"
-            }
+      "Slice": {
+        "Fill": {
+          "Default": {
+            "value": "{Shade.000}",
+            "type": "color"
           }
-        },
-        "Track": {
-          "Fill": {
-            "Default": {
-              "value": "{Transparent.white-70}",
-              "type": "color"
-            }
+        }
+      },
+      "Track": {
+        "Fill": {
+          "Default": {
+            "value": "{Transparent.white-30}",
+            "type": "color"
           }
         }
       }
