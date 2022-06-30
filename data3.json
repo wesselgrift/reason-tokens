@@ -1217,7 +1217,7 @@
       "ErrorIcon": {
         "Fill": {
           "Default": {
-            "value": "{Red.500}",
+            "value": "{Coral.600}",
             "type": "color"
           }
         }
