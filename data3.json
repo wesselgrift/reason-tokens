@@ -730,6 +730,14 @@
       "white-50": {
         "value": "rgba(255,255,255,0.5)",
         "type": "color"
+      },
+      "white-70": {
+        "value": "rgba(255,255,255,0.7)",
+        "type": "color"
+      },
+      "black-50": {
+        "value": "rgba(0,0,0,0.5)",
+        "type": "color"
       }
     },
     "boxshadow-elevation-1": {
@@ -1152,7 +1160,7 @@
         "Track": {
           "Fill": {
             "Default": {
-              "value": "{Transparent.white-50}",
+              "value": "{Transparent.white-70}",
               "type": "color"
             }
           }
@@ -1160,10 +1168,18 @@
       }
     },
     "CameraArea": {
-      "FinderBox": {
+      "ViewFinder": {
         "Fill": {
           "Default": {
             "value": "{Shade.000}",
+            "type": "color"
+          }
+        }
+      },
+      "LoadingOverlay": {
+        "Fill": {
+          "Default": {
+            "value": "{Transparent.black-50}",
             "type": "color"
           }
         }
