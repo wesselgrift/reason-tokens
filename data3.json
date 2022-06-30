@@ -1184,6 +1184,24 @@
           }
         }
       }
+    },
+    "OnPageVisualCircle": {
+      "Background": {
+        "Fill": {
+          "Default": {
+            "value": "{Shade.000}",
+            "type": "color"
+          }
+        }
+      },
+      "ErrorIcon": {
+        "Fill": {
+          "Default": {
+            "value": "{Red.500}",
+            "type": "color"
+          }
+        }
+      }
     }
   },
   "$themes": []
