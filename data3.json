@@ -1390,6 +1390,48 @@
           }
         }
       }
+    },
+    "BatteryIndicatorIcon": {
+      "Border": {
+        "Fill": {
+          "Default": {
+            "value": "{Shade.300}",
+            "type": "color"
+          },
+          "Danger": {
+            "value": "{Coral.600}",
+            "type": "color"
+          }
+        }
+      },
+      "Background": {
+        "Fill": {
+          "Default": {
+            "value": "{Transparent.white-00}",
+            "type": "color"
+          },
+          "Disabled": {
+            "value": "{Shade.300}",
+            "type": "color"
+          }
+        }
+      },
+      "Capacity": {
+        "Fill": {
+          "Default": {
+            "value": "{Spring Green.900}",
+            "type": "color"
+          },
+          "Warning": {
+            "value": "{Yellow.900}",
+            "type": "color"
+          },
+          "Danger": {
+            "value": "{Coral.600}",
+            "type": "color"
+          }
+        }
+      }
     }
   },
   "$themes": []
