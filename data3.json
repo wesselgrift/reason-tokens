@@ -1214,10 +1214,22 @@
       }
     },
     "General": {
-      "Background": {
+      "App": {
+        "Background": {
+          "Fill": {
+            "Default": {
+              "value": "{Shade.050}",
+              "type": "color"
+            }
+          }
+        }
+      }
+    },
+    "Copy": {
+      "Primary": {
         "Fill": {
           "Default": {
-            "value": "{Shade.050}",
+            "value": "{Shade.900}",
             "type": "color"
           }
         }
