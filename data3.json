@@ -1148,7 +1148,7 @@
       }
     },
     "Spinner": {
-      "OnDark": {
+      "OnDarkBackground": {
         "Slice": {
           "Fill": {
             "Default": {
