@@ -754,6 +754,24 @@
         "type": "dropShadow"
       },
       "type": "boxShadow"
+    },
+    "Gradients": {
+      "Dawn": {
+        "value": "linear-gradient(180deg, #BACACF 0%, #CDD6DA 29.56%, #E2DBD7 63.38%, #F3D1B9 100%)",
+        "type": "color"
+      },
+      "Midday": {
+        "value": "linear-gradient(180deg, #7FAFF6 0%, #98D2EE 41.15%, #CEE7F1 100%)",
+        "type": "color"
+      },
+      "Dusk": {
+        "value": "linear-gradient(180deg, #776CA0 0%, #AA80AE 34.9%, #DBA2AC 68.75%, #F9BE8D 100%)",
+        "type": "color"
+      },
+      "Night": {
+        "value": "linear-gradient(180deg, #474F52 0%, #5E6365 29.56%, #76706D 63.38%, #827367 100%)",
+        "type": "color"
+      }
     }
   },
   "App/Typography": {
