@@ -726,6 +726,10 @@
       "white-00": {
         "value": "rgba(0,0,0,0)",
         "type": "color"
+      },
+      "white-50": {
+        "value": "rgba(255,255,255,0.5)",
+        "type": "color"
       }
     },
     "boxshadow-elevation-1": {
@@ -1131,6 +1135,36 @@
               "value": "{Shade.200}",
               "type": "color"
             }
+          }
+        }
+      }
+    },
+    "Spinner": {
+      "OnDark": {
+        "Slice": {
+          "Fill": {
+            "Default": {
+              "value": "{Shade.000}",
+              "type": "color"
+            }
+          }
+        },
+        "Track": {
+          "Fill": {
+            "Default": {
+              "value": "{Transparent.white-50}",
+              "type": "color"
+            }
+          }
+        }
+      }
+    },
+    "CameraArea": {
+      "FinderBox": {
+        "Fill": {
+          "Default": {
+            "value": "{Shade.000}",
+            "type": "color"
           }
         }
       }
