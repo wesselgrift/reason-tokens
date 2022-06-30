@@ -1112,6 +1112,28 @@
           }
         }
       }
+    },
+    "BottomSheetModal": {
+      "Panel": {
+        "Background": {
+          "Fill": {
+            "Default": {
+              "value": "{Shade.050}",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "Backdrop": {
+        "Background": {
+          "Fill": {
+            "Default": {
+              "value": "{Shade.200}",
+              "type": "color"
+            }
+          }
+        }
+      }
     }
   },
   "$themes": []
