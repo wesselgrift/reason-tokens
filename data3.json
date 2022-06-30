@@ -724,23 +724,27 @@
     },
     "Transparent": {
       "white-00": {
-        "value": "rgba(0,0,0,0)",
+        "value": "rgba({Shade.000},0)",
         "type": "color"
       },
       "white-30": {
-        "value": "rgba(255,255,255,0.3)",
+        "value": "rgba({Shade.000},0.3)",
         "type": "color"
       },
       "white-50": {
-        "value": "rgba(255,255,255,0.5)",
+        "value": "rgba({Shade.000},0.5)",
         "type": "color"
       },
       "white-70": {
-        "value": "rgba(255,255,255,0.7)",
+        "value": "rgba({Shade.000},0.7)",
         "type": "color"
       },
       "black-50": {
-        "value": "rgba(0,0,0,0.5)",
+        "value": "rgba({Shade.900},0.5)",
+        "type": "color"
+      },
+      "black-30": {
+        "value": "rgba({Shade.900},0.3)",
         "type": "color"
       }
     },
@@ -1249,6 +1253,140 @@
           "Default": {
             "value": "{Shade.900}",
             "type": "color"
+          }
+        }
+      }
+    },
+    "HomepageHeader": {
+      "SunUp": {
+        "Background": {
+          "Fill": {
+            "Dawn": {
+              "value": "{Gradients.Dawn}",
+              "type": "color"
+            },
+            "Midday": {
+              "value": "{Gradients.Midday}",
+              "type": "color"
+            }
+          }
+        },
+        "TitleBlock": {
+          "Copy": {
+            "Fill": {
+              "Default": {
+                "value": "{Shade.900}",
+                "type": "color"
+              },
+              "Disabled": {
+                "value": "{Transparent.black-50}",
+                "type": "color"
+              }
+            }
+          },
+          "Icon": {
+            "Fill": {
+              "Default": {
+                "value": "{Shade.900}",
+                "type": "color"
+              },
+              "Disabled": {
+                "value": "{Transparent.black-50}",
+                "type": "color"
+              }
+            }
+          }
+        },
+        "GeneratingBlock": {
+          "Copy": {
+            "Fill": {
+              "Default": {
+                "value": "{Shade.900}",
+                "type": "color"
+              },
+              "Disabled": {
+                "value": "{Transparent.black-50}",
+                "type": "color"
+              }
+            }
+          },
+          "Icon": {
+            "Fill": {
+              "Default": {
+                "value": "{Shade.700}",
+                "type": "color"
+              },
+              "Disabled": {
+                "value": "{Transparent.black-50}",
+                "type": "color"
+              }
+            }
+          }
+        }
+      },
+      "SunDown": {
+        "Background": {
+          "Fill": {
+            "Dawn": {
+              "value": "{Gradients.Dusk}",
+              "type": "color"
+            },
+            "Midday": {
+              "value": "{Gradients.Night}",
+              "type": "color"
+            }
+          }
+        },
+        "TitleBlock": {
+          "Copy": {
+            "Fill": {
+              "Default": {
+                "value": "{Shade.000}",
+                "type": "color"
+              },
+              "Disabled": {
+                "value": "{Transparent.white-50}",
+                "type": "color"
+              }
+            }
+          },
+          "Icon": {
+            "Fill": {
+              "Default": {
+                "value": "{Shade.000}",
+                "type": "color"
+              },
+              "Disabled": {
+                "value": "{Transparent.white-50}",
+                "type": "color"
+              }
+            }
+          }
+        },
+        "GeneratingBlock": {
+          "Copy": {
+            "Fill": {
+              "Default": {
+                "value": "{Shade.000}",
+                "type": "color"
+              },
+              "Disabled": {
+                "value": "{Transparent.white-50}",
+                "type": "color"
+              }
+            }
+          },
+          "Icon": {
+            "Fill": {
+              "Default": {
+                "value": "{Shade.100}",
+                "type": "color"
+              },
+              "Disabled": {
+                "value": "{Transparent.white-50}",
+                "type": "color"
+              }
+            }
           }
         }
       }
