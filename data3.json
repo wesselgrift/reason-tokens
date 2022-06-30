@@ -1204,6 +1204,14 @@
           }
         }
       }
+    },
+    "Startscreen": {
+      "Logo": {
+        "Fill": {
+          "value": "{Shade.000}",
+          "type": "color"
+        }
+      }
     }
   },
   "$themes": []
