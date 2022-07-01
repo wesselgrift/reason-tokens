@@ -775,6 +775,10 @@
       "Night": {
         "value": "linear-gradient(180deg, #474F52 0%, #5E6365 29.56%, #76706D 63.38%, #827367 100%)",
         "type": "color"
+      },
+      "FadeToBlackBottom-60": {
+        "value": "linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 70%)",
+        "type": "color"
       }
     }
   },
@@ -1561,6 +1565,52 @@
                 "type": "color"
               }
             }
+          }
+        }
+      }
+    },
+    "StoryCard": {
+      "Gradient": {
+        "Fill": {
+          "Default": {
+            "value": "{Gradients.FadeToBlackBottom-60}",
+            "type": "color"
+          }
+        }
+      },
+      "Title": {
+        "Fill": {
+          "Default": {
+            "value": "{Shade.000}",
+            "type": "color"
+          }
+        }
+      },
+      "ReadMoreButton": {
+        "Label": {
+          "Fill": {
+            "Default": {
+              "value": "{Shade.000}",
+              "type": "color"
+            }
+          }
+        },
+        "Icon": {
+          "Fill": {
+            "Default": {
+              "value": "{Shade.000}",
+              "type": "color"
+            }
+          }
+        }
+      }
+    },
+    "StoryList": {
+      "Title": {
+        "Fill": {
+          "Default": {
+            "value": "{Shade.900}",
+            "type": "color"
           }
         }
       }
