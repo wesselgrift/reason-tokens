@@ -1482,6 +1482,88 @@
           }
         }
       }
+    },
+    "BatteryStack": {
+      "BatteryHealth": {
+        "Spinner": {
+          "Fill": {
+            "Default": {
+              "value": "{Shade.600}",
+              "type": "color"
+            }
+          }
+        },
+        "Title": {
+          "Fill": {
+            "Default": {
+              "value": "{Shade.900}",
+              "type": "color"
+            },
+            "Disabled": {
+              "value": "{Shade.400}",
+              "type": "color"
+            }
+          }
+        },
+        "Percentage": {
+          "Fill": {
+            "Default": {
+              "value": "{Shade.900}",
+              "type": "color"
+            },
+            "Disabled": {
+              "value": "{Shade.400}",
+              "type": "color"
+            }
+          }
+        },
+        "DataAgeLabel": {
+          "Fill": {
+            "Default": {
+              "value": "{Shade.600}",
+              "type": "color"
+            },
+            "Disabled": {
+              "value": "{Shade.400}",
+              "type": "color"
+            }
+          }
+        },
+        "WarningLabel": {
+          "Fill": {
+            "Default": {
+              "value": "{Coral.600}",
+              "type": "color"
+            },
+            "Disabled": {
+              "value": "{Shade.400}",
+              "type": "color"
+            }
+          }
+        },
+        "ConnectionMessage": {
+          "Label": {
+            "Fill": {
+              "Default": {
+                "value": "{Shade.600}",
+                "type": "color"
+              },
+              "Error": {
+                "value": "{Coral.600}",
+                "type": "color"
+              }
+            }
+          },
+          "Link": {
+            "Fill": {
+              "Default": {
+                "value": "{Ocean.600}",
+                "type": "color"
+              }
+            }
+          }
+        }
+      }
     }
   },
   "$themes": []
