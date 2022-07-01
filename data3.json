@@ -1051,6 +1051,14 @@
             "type": "color"
           }
         }
+      },
+      "HomeButton": {
+        "Fill": {
+          "Default": {
+            "value": "{Shade.900}",
+            "type": "color"
+          }
+        }
       }
     },
     "Button": {
