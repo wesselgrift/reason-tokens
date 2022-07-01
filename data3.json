@@ -1267,16 +1267,6 @@
         }
       }
     },
-    "Copy": {
-      "Primary": {
-        "Fill": {
-          "Default": {
-            "value": "{Shade.900}",
-            "type": "color"
-          }
-        }
-      }
-    },
     "HomepageHeader": {
       "SunUp": {
         "Background": {
