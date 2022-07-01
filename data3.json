@@ -1249,6 +1249,22 @@
             }
           }
         }
+      },
+      "Copy": {
+        "Fill": {
+          "Default": {
+            "value": "{Shade.900}",
+            "type": "color"
+          }
+        }
+      },
+      "Icons": {
+        "Fill": {
+          "Default": {
+            "value": "{Shade.900}",
+            "type": "color"
+          }
+        }
       }
     },
     "Copy": {
