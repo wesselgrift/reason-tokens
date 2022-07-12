@@ -936,10 +936,10 @@
       "type": "typography",
       "description": "Regular paragraph"
     },
-    "Footnote Semi Bold": {
+    "Footnote Medium": {
       "value": {
         "fontFamily": "{base-font-family}",
-        "fontWeight": "{font-weight-semibold}",
+        "fontWeight": "{font-weight-medium}",
         "lineHeight": "{line-height-20}",
         "fontSize": "{font-size-13}",
         "letterSpacing": "{letter-spacing-0}"
