@@ -851,7 +851,7 @@
     "Headline": {
       "value": {
         "fontFamily": "{base-font-family}",
-        "fontWeight": "{font-weight-semibold}",
+        "fontWeight": "{font-weight-medium}",
         "lineHeight": "{line-height-24}",
         "fontSize": "{font-size-17}",
         "letterSpacing": "{letter-spacing--0,25}"
