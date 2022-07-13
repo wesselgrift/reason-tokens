@@ -781,6 +781,32 @@
       "Informative": {
         "value": "{Blue.500}",
         "type": "color"
+      },
+      "On": {
+        "Informative": {
+          "value": "{Blue.500}",
+          "type": "color"
+        },
+        "Critical": {
+          "value": "{Red.500}",
+          "type": "color"
+        },
+        "Success": {
+          "value": "{Green.500}",
+          "type": "color"
+        },
+        "Primary Action": {
+          "value": "{Shade.0}",
+          "type": "color"
+        },
+        "Primary Action Pressed": {
+          "value": "{Shade.100}",
+          "type": "color"
+        },
+        "Primary Disabled": {
+          "value": "{Shade.300}",
+          "type": "color"
+        }
       }
     }
   },
