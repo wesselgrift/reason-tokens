@@ -489,11 +489,11 @@
         "type": "color"
       },
       "Orange Fade Out": {
-        "value": "linear-gradient(180deg, #f39f1c 0%, #f39f1c7d 85.25%, #f39f1c00 100%)",
+        "value": "linear-gradient(180deg, rgba(248, 166, 70, 0.5) 0%, rgba(248, 166, 70, 0) 100%)",
         "type": "color"
       },
       "Orange Fade Out Muted": {
-        "value": "linear-gradient(180deg, #f39f1c 0%, #f39f1c7d 85.25%, #f39f1c00 100%)",
+        "value": "linear-gradient(180deg, rgba(248, 166, 70, 0.2) 0%, rgba(248, 166, 70, 0) 100%)",
         "type": "color"
       }
     },
