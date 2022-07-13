@@ -752,6 +752,36 @@
           "type": "color"
         }
       }
+    },
+    "Icon": {
+      "Primary": {
+        "value": "{Shade.600}",
+        "type": "color"
+      },
+      "Secondary": {
+        "value": "{Shade.400}",
+        "type": "color"
+      },
+      "Subdued": {
+        "value": "{Shade.300}",
+        "type": "color"
+      },
+      "Disabled": {
+        "value": "{Shade.200}",
+        "type": "color"
+      },
+      "Critical": {
+        "value": "{Red.500}",
+        "type": "color"
+      },
+      "Success": {
+        "value": "{Green.600}",
+        "type": "color"
+      },
+      "Informative": {
+        "value": "{Blue.500}",
+        "type": "color"
+      }
     }
   },
   "$themes": []
