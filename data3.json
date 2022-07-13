@@ -817,6 +817,36 @@
           "type": "color"
         }
       }
+    },
+    "Actions": {
+      "Primary": {
+        "Default": {
+          "value": "{Shade.700}",
+          "type": "color"
+        },
+        "Pressed": {
+          "value": "{Shade.600}",
+          "type": "color"
+        },
+        "Disabled": {
+          "value": "{Shade.100}",
+          "type": "color"
+        }
+      },
+      "Secondary": {
+        "Default": {
+          "value": "{Shade.0}",
+          "type": "color"
+        },
+        "Pressed": {
+          "value": "{Shade.100}",
+          "type": "color"
+        },
+        "Disabled": {
+          "value": "{Shade.100}",
+          "type": "color"
+        }
+      }
     }
   },
   "$themes": []
