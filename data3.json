@@ -698,6 +698,21 @@
         "value": "{Shade.200}",
         "type": "color",
         "description": "Default color for app text"
+      },
+      "Critical": {
+        "value": "{Red.500}",
+        "type": "color",
+        "description": "Default color for app text"
+      },
+      "Success": {
+        "value": "{Green.600}",
+        "type": "color",
+        "description": "Default color for app text"
+      },
+      "Informative": {
+        "value": "{Blue.500}",
+        "type": "color",
+        "description": "Default color for app text"
       }
     }
   },
