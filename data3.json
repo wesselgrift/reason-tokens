@@ -882,6 +882,10 @@
       "Default": {
         "value": "{Shade.100}",
         "type": "color"
+      },
+      "Loud": {
+        "value": "{Shade.200}",
+        "type": "color"
       }
     },
     "Energy": {
@@ -910,6 +914,10 @@
         },
         "Critical": {
           "value": "{Red.500}",
+          "type": "color"
+        },
+        "Disabled": {
+          "value": "{Shade.200}",
           "type": "color"
         }
       }
