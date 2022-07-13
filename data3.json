@@ -899,7 +899,7 @@
           "type": "color"
         },
         "Disabled": {
-          "value": "{Shade.200}",
+          "value": "{Shade.100}",
           "type": "color"
         }
       },
