@@ -889,7 +889,7 @@
       }
     },
     "Energy": {
-      "Solarized": {
+      "Solar": {
         "Default": {
           "value": "{Yellow.500}",
           "type": "color"
