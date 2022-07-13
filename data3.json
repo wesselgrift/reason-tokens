@@ -738,6 +738,18 @@
         "Success Subdued": {
           "value": "{Dark Pastel.Green}",
           "type": "color"
+        },
+        "Primary Action": {
+          "value": "{Shade.0}",
+          "type": "color"
+        },
+        "Primary Action Pressed": {
+          "value": "{Shade.100}",
+          "type": "color"
+        },
+        "Primary Action Disabled": {
+          "value": "{Shade.300}",
+          "type": "color"
         }
       }
     }
