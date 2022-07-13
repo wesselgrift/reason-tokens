@@ -771,6 +771,10 @@
         "value": "{Shade.300}",
         "type": "color"
       },
+      "Pressed": {
+        "value": "{Shade.700}",
+        "type": "color"
+      },
       "Disabled": {
         "value": "{Shade.200}",
         "type": "color"
