@@ -827,6 +827,18 @@
         "Primary Disabled": {
           "value": "{Shade.300}",
           "type": "color"
+        },
+        "Secondary Action": {
+          "value": "{Shade.700}",
+          "type": "color"
+        },
+        "Secondary Action Pressed": {
+          "value": "{Shade.600}",
+          "type": "color"
+        },
+        "Secondary Disabled": {
+          "value": "{Shade.300}",
+          "type": "color"
         }
       }
     },
