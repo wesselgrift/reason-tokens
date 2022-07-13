@@ -648,6 +648,11 @@
         "value": "{Shade.0}",
         "type": "color",
         "description": "Used for the app's background"
+      },
+      "Pressed": {
+        "value": "{Shade.50}",
+        "type": "color",
+        "description": "Used for the app's background"
       }
     },
     "Surface": {
