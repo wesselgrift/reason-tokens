@@ -871,6 +871,12 @@
           "type": "color"
         }
       }
+    },
+    "Borders": {
+      "Default": {
+        "value": "{Shade.100}",
+        "type": "color"
+      }
     }
   },
   "$themes": []
