@@ -376,378 +376,6 @@
       "value": "1",
       "type": "borderWidth"
     },
-    "Shade": {
-      "100": {
-        "value": "#f5F5F5",
-        "type": "color"
-      },
-      "200": {
-        "value": "#e9e9e8",
-        "type": "color"
-      },
-      "300": {
-        "value": "#d9d9d8",
-        "type": "color"
-      },
-      "400": {
-        "value": "#C8C8C8",
-        "type": "color"
-      },
-      "500": {
-        "value": "#969694",
-        "type": "color"
-      },
-      "600": {
-        "value": "#6d6d6c",
-        "type": "color"
-      },
-      "700": {
-        "value": "#5C5C5C",
-        "type": "color"
-      },
-      "800": {
-        "value": "#373739",
-        "type": "color"
-      },
-      "900": {
-        "value": "#1b1b1a",
-        "type": "color"
-      },
-      "000": {
-        "value": "#fff",
-        "type": "color"
-      },
-      "050": {
-        "value": "#f9f9f7",
-        "type": "color"
-      }
-    },
-    "Ocean": {
-      "100": {
-        "value": "#b1ecf1",
-        "type": "color"
-      },
-      "200": {
-        "value": "#7ddfe9",
-        "type": "color"
-      },
-      "300": {
-        "value": "#44d2e1",
-        "type": "color"
-      },
-      "400": {
-        "value": "#00C7DA",
-        "type": "color"
-      },
-      "500": {
-        "value": "#00bed5",
-        "type": "color"
-      },
-      "600": {
-        "value": "#00aec2",
-        "type": "color"
-      },
-      "700": {
-        "value": "#0099a8",
-        "type": "color"
-      },
-      "800": {
-        "value": "#008590",
-        "type": "color"
-      },
-      "900": {
-        "value": "#006264",
-        "type": "color"
-      },
-      "050": {
-        "value": "#dff7fa",
-        "type": "color"
-      }
-    },
-    "Coral": {
-      "100": {
-        "value": "#fecec1",
-        "type": "color"
-      },
-      "200": {
-        "value": "#fdae9a",
-        "type": "color"
-      },
-      "300": {
-        "value": "#fe8e72",
-        "type": "color"
-      },
-      "400": {
-        "value": "#fe7554",
-        "type": "color"
-      },
-      "500": {
-        "value": "#ff5d39",
-        "type": "color"
-      },
-      "600": {
-        "value": "#f45735",
-        "type": "color"
-      },
-      "700": {
-        "value": "#e65130",
-        "type": "color"
-      },
-      "800": {
-        "value": "#d74a2c",
-        "type": "color"
-      },
-      "900": {
-        "value": "#bd3f25",
-        "type": "color"
-      },
-      "050": {
-        "value": "#faeae9",
-        "type": "color"
-      }
-    },
-    "Red": {
-      "100": {
-        "value": "#ffced2",
-        "type": "color"
-      },
-      "200": {
-        "value": "#f99c99",
-        "type": "color"
-      },
-      "300": {
-        "value": "#f27572",
-        "type": "color"
-      },
-      "400": {
-        "value": "#fd554c",
-        "type": "color"
-      },
-      "500": {
-        "value": "#ff442e",
-        "type": "color"
-      },
-      "600": {
-        "value": "#f43a2f",
-        "type": "color"
-      },
-      "700": {
-        "value": "#e22f29",
-        "type": "color"
-      },
-      "800": {
-        "value": "#d52722",
-        "type": "color"
-      },
-      "900": {
-        "value": "#c51a14",
-        "type": "color"
-      },
-      "050": {
-        "value": "#ffecee",
-        "type": "color"
-      }
-    },
-    "Yellow": {
-      "100": {
-        "value": "#fdf6c1",
-        "type": "color"
-      },
-      "200": {
-        "value": "#fcf199",
-        "type": "color"
-      },
-      "300": {
-        "value": "#fbeb70",
-        "type": "color"
-      },
-      "400": {
-        "value": "#f9e64f",
-        "type": "color"
-      },
-      "500": {
-        "value": "#f7e12d",
-        "type": "color"
-      },
-      "600": {
-        "value": "#f7d02b",
-        "type": "color"
-      },
-      "700": {
-        "value": "#f5b924",
-        "type": "color"
-      },
-      "800": {
-        "value": "#f3a11c",
-        "type": "color"
-      },
-      "900": {
-        "value": "#ef770e",
-        "type": "color"
-      },
-      "050": {
-        "value": "#fefce6",
-        "type": "color"
-      }
-    },
-    "Green": {
-      "100": {
-        "value": "#c5e6d1",
-        "type": "color"
-      },
-      "200": {
-        "value": "#a1d6b4",
-        "type": "color"
-      },
-      "300": {
-        "value": "#7bc796",
-        "type": "color"
-      },
-      "400": {
-        "value": "#5ebb81",
-        "type": "color"
-      },
-      "500": {
-        "value": "#41af6b",
-        "type": "color"
-      },
-      "600": {
-        "value": "#3aa061",
-        "type": "color"
-      },
-      "700": {
-        "value": "#318e55",
-        "type": "color"
-      },
-      "800": {
-        "value": "#2a7c4a",
-        "type": "color"
-      },
-      "900": {
-        "value": "#1f5d36",
-        "type": "color"
-      },
-      "050": {
-        "value": "#e7f5ec",
-        "type": "color"
-      }
-    },
-    "Blue": {
-      "100": {
-        "value": "#c2e0ff",
-        "type": "color"
-      },
-      "200": {
-        "value": "#9eceff",
-        "type": "color"
-      },
-      "300": {
-        "value": "#7abbff",
-        "type": "color"
-      },
-      "400": {
-        "value": "#64abff",
-        "type": "color"
-      },
-      "500": {
-        "value": "#579dfe",
-        "type": "color"
-      },
-      "600": {
-        "value": "#538eef",
-        "type": "color"
-      },
-      "700": {
-        "value": "#4d7bdb",
-        "type": "color"
-      },
-      "800": {
-        "value": "#496ac8",
-        "type": "color"
-      },
-      "900": {
-        "value": "#404ba8",
-        "type": "color"
-      },
-      "050": {
-        "value": "#e6f3ff",
-        "type": "color"
-      }
-    },
-    "Sun": {
-      "100": {
-        "value": "#E1D5C3",
-        "type": "color"
-      },
-      "200": {
-        "value": "#E3D0B0",
-        "type": "color"
-      },
-      "300": {
-        "value": "#E4CCA6",
-        "type": "color"
-      },
-      "400": {
-        "value": "#E7C287",
-        "type": "color"
-      },
-      "500": {
-        "value": "#EABA71",
-        "type": "color"
-      },
-      "600": {
-        "value": "#EAB666",
-        "type": "color"
-      },
-      "700": {
-        "value": "#EFAB41",
-        "type": "color"
-      },
-      "800": {
-        "value": "#f3a11c",
-        "type": "color"
-      },
-      "900": {
-        "value": "#ef770e",
-        "type": "color"
-      },
-      "050": {
-        "value": "#DDDDDD",
-        "type": "color"
-      }
-    },
-    "Spring Green": {
-      "900": {
-        "value": "#1ACF78",
-        "type": "color"
-      }
-    },
-    "Transparent": {
-      "white-00": {
-        "value": "rgba({Shade.000},0)",
-        "type": "color"
-      },
-      "white-30": {
-        "value": "rgba({Shade.000},0.3)",
-        "type": "color"
-      },
-      "white-50": {
-        "value": "rgba({Shade.000},0.5)",
-        "type": "color"
-      },
-      "white-70": {
-        "value": "rgba({Shade.000},0.7)",
-        "type": "color"
-      },
-      "black-50": {
-        "value": "rgba({Shade.900},0.5)",
-        "type": "color"
-      },
-      "black-30": {
-        "value": "rgba({Shade.900},0.3)",
-        "type": "color"
-      }
-    },
     "boxshadow-elevation-1": {
       "value": {
         "x": "0",
@@ -759,25 +387,113 @@
       },
       "type": "boxShadow"
     },
-    "Gradients": {
-      "Dawn": {
-        "value": "linear-gradient(180deg, #BACACF 0%, #CDD6DA 29.56%, #E2DBD7 63.38%, #F3D1B9 100%)",
+    "Shade": {
+      "0": {
+        "value": "#ffffff",
         "type": "color"
       },
-      "Midday": {
-        "value": "linear-gradient(180deg, #7FAFF6 0%, #98D2EE 41.15%, #CEE7F1 100%)",
+      "50": {
+        "value": "#F7F7F7",
         "type": "color"
       },
-      "Dusk": {
-        "value": "linear-gradient(180deg, #776CA0 0%, #AA80AE 34.9%, #DBA2AC 68.75%, #F9BE8D 100%)",
+      "100": {
+        "value": "#EDEDED",
         "type": "color"
       },
-      "Night": {
-        "value": "linear-gradient(180deg, #474F52 0%, #5E6365 29.56%, #76706D 63.38%, #827367 100%)",
+      "200": {
+        "value": "#E3E3E3",
         "type": "color"
       },
-      "FadeToBlackBottom-60": {
-        "value": "linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 70%)",
+      "300": {
+        "value": "#B5B5B5",
+        "type": "color"
+      },
+      "400": {
+        "value": "#8C8C8C",
+        "type": "color"
+      },
+      "500": {
+        "value": "#565656",
+        "type": "color"
+      },
+      "600": {
+        "value": "#404040",
+        "type": "color"
+      },
+      "700": {
+        "value": "#131313",
+        "type": "color"
+      }
+    },
+    "Dark Pastel": {
+      "Red": {
+        "value": "#ADA8A6",
+        "type": "color"
+      },
+      "Blue": {
+        "value": "#A5A8AC",
+        "type": "color"
+      },
+      "Green": {
+        "value": "#A1AAA5",
+        "type": "color"
+      }
+    },
+    "Yellow": {
+      "100": {
+        "value": "#FDEACE",
+        "type": "color"
+      },
+      "500": {
+        "value": "#F8A646",
+        "type": "color"
+      }
+    },
+    "Red": {
+      "100": {
+        "value": "#FFF7F5",
+        "type": "color"
+      },
+      "500": {
+        "value": "#F45735",
+        "type": "color"
+      }
+    },
+    "Green": {
+      "100": {
+        "value": "#F2FAF6",
+        "type": "color"
+      },
+      "500": {
+        "value": "#1ACF78",
+        "type": "color"
+      },
+      "600": {
+        "value": "#19BE6F",
+        "type": "color"
+      }
+    },
+    "Blue": {
+      "100": {
+        "value": "#F3F8FE",
+        "type": "color"
+      },
+      "500": {
+        "value": "#1478EE",
+        "type": "color"
+      }
+    },
+    "Gradient": {
+      "Fade to Grey": {
+        "value": "linear-gradient(180deg, rgba(248, 248, 248, 0) 62.07%, #F2F2F2 100%)",
+        "type": "color"
+      },
+      "Orange Fade Out": {
+        "value": "linear-gradient(180deg, #F39F1C -341.1%, rgba(243, 159, 28, 0.494792) 14.54%, rgba(243, 159, 28, 0) 76.07%), linear-gradient(180deg, rgba(248, 248, 248, 0) 62.07%, #F2F2F2 100%)",
+        "type": "color"
+      },
+      "Orange Fade Out Muted": {
+        "value": "linear-gradient(180deg, rgba(243, 159, 28, 0.4) -341.1%, rgba(243, 159, 28, 0.197917) 14.54%, rgba(243, 159, 28, 0) 76.07%)",
         "type": "color"
       }
     }
@@ -786,31 +502,20 @@
     "Large Title": {
       "value": {
         "fontFamily": "{base-font-family}",
-        "fontWeight": "{font-weight-regular}",
+        "fontWeight": "{font-weight-semibold}",
         "lineHeight": "{line-height-40}",
-        "fontSize": "{font-size-34}",
-        "letterSpacing": "{letter-spacing--2,2}"
+        "fontSize": "{font-size-32}",
+        "letterSpacing": "{letter-spacing--1,9}"
       },
       "type": "typography"
     },
     "Title 1": {
       "value": {
         "fontFamily": "{base-font-family}",
-        "fontWeight": "{font-weight-regular}",
-        "lineHeight": "{line-height-32}",
-        "fontSize": "{font-size-28}",
-        "letterSpacing": "{letter-spacing--1,1}"
-      },
-      "type": "typography",
-      "description": "Heading 1 for the app"
-    },
-    "Title 1 Semibold": {
-      "value": {
-        "fontFamily": "{base-font-family}",
         "fontWeight": "{font-weight-semibold}",
         "lineHeight": "{line-height-32}",
         "fontSize": "{font-size-28}",
-        "letterSpacing": "{letter-spacing--1,1}"
+        "letterSpacing": "{letter-spacing--1,6}"
       },
       "type": "typography",
       "description": "Heading 1 for the app"
@@ -818,21 +523,10 @@
     "Title 2": {
       "value": {
         "fontFamily": "{base-font-family}",
-        "fontWeight": "{font-weight-regular}",
-        "lineHeight": "{line-height-32}",
-        "fontSize": "{font-size-22}",
-        "letterSpacing": "{letter-spacing--0,9}"
-      },
-      "type": "typography",
-      "description": "Heading 1 for the app"
-    },
-    "Title 2 Semi Bold": {
-      "value": {
-        "fontFamily": "{base-font-family}",
         "fontWeight": "{font-weight-semibold}",
         "lineHeight": "{line-height-32}",
-        "fontSize": "{font-size-22}",
-        "letterSpacing": "{letter-spacing--0,9}"
+        "fontSize": "{font-size-24}",
+        "letterSpacing": "{letter-spacing--1,3}"
       },
       "type": "typography",
       "description": "Heading 1 for the app"
@@ -842,8 +536,8 @@
         "fontFamily": "{base-font-family}",
         "fontWeight": "{font-weight-medium}",
         "lineHeight": "{line-height-24}",
-        "fontSize": "{font-size-20}",
-        "letterSpacing": "{letter-spacing--0,6}"
+        "fontSize": "{font-size-17}",
+        "letterSpacing": "{letter-spacing-0}"
       },
       "type": "typography",
       "description": "Heading 1 for the app"
@@ -852,9 +546,9 @@
       "value": {
         "fontFamily": "{base-font-family}",
         "fontWeight": "{font-weight-medium}",
-        "lineHeight": "{line-height-24}",
-        "fontSize": "{font-size-17}",
-        "letterSpacing": "{letter-spacing--0,25}"
+        "lineHeight": "{line-height-20}",
+        "fontSize": "{font-size-15}",
+        "letterSpacing": "{letter-spacing-0}"
       },
       "type": "typography",
       "description": "Heading 1 for the app"
@@ -863,19 +557,8 @@
       "value": {
         "fontFamily": "{base-font-family}",
         "fontWeight": "{font-weight-regular}",
-        "lineHeight": "{line-height-24}",
-        "fontSize": "{font-size-17}",
-        "letterSpacing": "{letter-spacing-0}"
-      },
-      "type": "typography",
-      "description": "Regular paragraph"
-    },
-    "Body Semi Bold": {
-      "value": {
-        "fontFamily": "{base-font-family}",
-        "fontWeight": "{font-weight-semibold}",
-        "lineHeight": "{line-height-24}",
-        "fontSize": "{font-size-17}",
+        "lineHeight": "{line-height-20}",
+        "fontSize": "{font-size-15}",
         "letterSpacing": "{letter-spacing-0}"
       },
       "type": "typography",
@@ -884,20 +567,9 @@
     "Callout": {
       "value": {
         "fontFamily": "{base-font-family}",
-        "fontWeight": "{font-weight-regular}",
-        "lineHeight": "{line-height-20}",
-        "fontSize": "{font-size-16}",
-        "letterSpacing": "{letter-spacing-0}"
-      },
-      "type": "typography",
-      "description": "Regular paragraph"
-    },
-    "Callout Semi Bold": {
-      "value": {
-        "fontFamily": "{base-font-family}",
-        "fontWeight": "{font-weight-semibold}",
-        "lineHeight": "{line-height-20}",
-        "fontSize": "{font-size-16}",
+        "fontWeight": "{font-weight-bold}",
+        "lineHeight": "{line-height-16}",
+        "fontSize": "{font-size-13}",
         "letterSpacing": "{letter-spacing-0}"
       },
       "type": "typography",
@@ -906,20 +578,9 @@
     "Subhead": {
       "value": {
         "fontFamily": "{base-font-family}",
-        "fontWeight": "{font-weight-regular}",
-        "lineHeight": "{line-height-20}",
-        "fontSize": "{font-size-15}",
-        "letterSpacing": "{letter-spacing-0}"
-      },
-      "type": "typography",
-      "description": "Regular paragraph"
-    },
-    "Subhead Semi Bold": {
-      "value": {
-        "fontFamily": "{base-font-family}",
-        "fontWeight": "{font-weight-semibold}",
-        "lineHeight": "{line-height-20}",
-        "fontSize": "{font-size-15}",
+        "fontWeight": "{font-weight-medium}",
+        "lineHeight": "{line-height-16}",
+        "fontSize": "{font-size-13}",
         "letterSpacing": "{letter-spacing-0}"
       },
       "type": "typography",
@@ -929,18 +590,7 @@
       "value": {
         "fontFamily": "{base-font-family}",
         "fontWeight": "{font-weight-regular}",
-        "lineHeight": "{line-height-20}",
-        "fontSize": "{font-size-13}",
-        "letterSpacing": "{letter-spacing-0}"
-      },
-      "type": "typography",
-      "description": "Regular paragraph"
-    },
-    "Footnote Medium": {
-      "value": {
-        "fontFamily": "{base-font-family}",
-        "fontWeight": "{font-weight-medium}",
-        "lineHeight": "{line-height-20}",
+        "lineHeight": "{line-height-16}",
         "fontSize": "{font-size-13}",
         "letterSpacing": "{letter-spacing-0}"
       },
@@ -951,17 +601,6 @@
       "value": {
         "fontFamily": "{base-font-family}",
         "fontWeight": "{font-weight-regular}",
-        "lineHeight": "{line-height-16}",
-        "fontSize": "{font-size-12}",
-        "letterSpacing": "{letter-spacing-0}"
-      },
-      "type": "typography",
-      "description": "Regular paragraph"
-    },
-    "Caption 1 Semi Bold": {
-      "value": {
-        "fontFamily": "{base-font-family}",
-        "fontWeight": "{font-weight-semibold}",
         "lineHeight": "{line-height-16}",
         "fontSize": "{font-size-12}",
         "letterSpacing": "{letter-spacing-0}"
@@ -980,23 +619,12 @@
       "type": "typography",
       "description": "Regular paragraph"
     },
-    "Caption 2 Semi Bold": {
-      "value": {
-        "fontFamily": "{base-font-family}",
-        "fontWeight": "{font-weight-semibold}",
-        "lineHeight": "{line-height-16}",
-        "fontSize": "{font-size-11}",
-        "letterSpacing": "{letter-spacing-0}"
-      },
-      "type": "typography",
-      "description": "Regular paragraph"
-    },
     "Button Label": {
       "value": {
         "fontFamily": "{base-font-family}",
         "fontWeight": "{font-weight-semibold}",
-        "lineHeight": "{line-height-24}",
-        "fontSize": "{font-size-17}",
+        "lineHeight": "{line-height-20}",
+        "fontSize": "{font-size-15}",
         "letterSpacing": "{letter-spacing-0}"
       },
       "type": "typography",
