@@ -921,6 +921,20 @@
           "type": "color"
         }
       }
+    },
+    "Decorative": {
+      "Home Gradient": {
+        "value": "{Gradient.Fade to Grey}",
+        "type": "color"
+      },
+      "Solar Graph Gradient Active": {
+        "value": "{Gradient.Orange Fade Out}",
+        "type": "color"
+      },
+      "Solar Graph Gradient Subdued": {
+        "value": "{Gradient.Orange Fade Out Muted}",
+        "type": "color"
+      }
     }
   },
   "$themes": []
