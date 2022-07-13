@@ -713,6 +713,32 @@
         "value": "{Blue.500}",
         "type": "color",
         "description": "Default color for app text"
+      },
+      "On": {
+        "Informative": {
+          "value": "{Shade.700}",
+          "type": "color"
+        },
+        "Informative Subdued": {
+          "value": "{Dark Pastel.Blue}",
+          "type": "color"
+        },
+        "Critical": {
+          "value": "{Shade.700}",
+          "type": "color"
+        },
+        "Critical Subdued": {
+          "value": "{Dark Pastel.Red}",
+          "type": "color"
+        },
+        "Success": {
+          "value": "{Shade.700}",
+          "type": "color"
+        },
+        "Success Subdued": {
+          "value": "{Dark Pastel.Green}",
+          "type": "color"
+        }
       }
     }
   },
