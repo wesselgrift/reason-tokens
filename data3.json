@@ -496,6 +496,12 @@
         "value": "linear-gradient(180deg, rgba(243, 159, 28, 0.4) -341.1%, rgba(243, 159, 28, 0.197917) 14.54%, rgba(243, 159, 28, 0) 76.07%)",
         "type": "color"
       }
+    },
+    "Orange": {
+      "600": {
+        "value": "#EF770E",
+        "type": "color"
+      }
     }
   },
   "App/Typography": {
@@ -890,6 +896,20 @@
         },
         "Disabled": {
           "value": "{Shade.200}",
+          "type": "color"
+        }
+      },
+      "Battery": {
+        "Healthy": {
+          "value": "{Green.500}",
+          "type": "color"
+        },
+        "Warning": {
+          "value": "{Orange.600}",
+          "type": "color"
+        },
+        "Critical": {
+          "value": "{Red.500}",
           "type": "color"
         }
       }
