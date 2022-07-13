@@ -376,11 +376,11 @@
       "value": "1",
       "type": "borderWidth"
     },
-    "boxshadow-elevation-1": {
+    "elevation 1": {
       "value": {
         "x": "0",
-        "y": "-0.5",
-        "blur": "10",
+        "y": "0",
+        "blur": "12",
         "spread": "0",
         "color": "rgba(0,0,0,0.1)",
         "type": "dropShadow"
@@ -934,6 +934,12 @@
       "Solar Graph Gradient Subdued": {
         "value": "{Gradient.Orange Fade Out Muted}",
         "type": "color"
+      }
+    },
+    "Navigation": {
+      "Bottom Navigation Bar": {
+        "value": "{elevation 1}",
+        "type": "boxShadow"
       }
     }
   },
