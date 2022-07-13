@@ -877,6 +877,22 @@
         "value": "{Shade.100}",
         "type": "color"
       }
+    },
+    "Energy": {
+      "Solarized": {
+        "Default": {
+          "value": "{Yellow.500}",
+          "type": "color"
+        },
+        "Subdued": {
+          "value": "{Yellow.100}",
+          "type": "color"
+        },
+        "Disabled": {
+          "value": "{Shade.200}",
+          "type": "color"
+        }
+      }
     }
   },
   "$themes": []
