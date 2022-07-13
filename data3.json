@@ -493,7 +493,7 @@
         "type": "color"
       },
       "Orange Fade Out Muted": {
-        "value": "linear-gradient(180deg, rgba(248, 166, 70, 0.2) 0%, rgba(248, 166, 70, 0) 100%)",
+        "value": "linear-gradient(180deg, rgba(248, 166, 70, 0.25) 0%, rgba(248, 166, 70, 0) 100%)",
         "type": "color"
       }
     },
