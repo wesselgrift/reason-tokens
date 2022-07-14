@@ -891,6 +891,10 @@
       "Loud": {
         "value": "{Shade.200}",
         "type": "color"
+      },
+      "Negative": {
+        "value": "{Shade.0}",
+        "type": "color"
       }
     },
     "Energy": {
