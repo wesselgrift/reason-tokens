@@ -380,9 +380,20 @@
       "value": {
         "x": "0",
         "y": "0",
-        "blur": "12",
+        "blur": "6",
         "spread": "0",
         "color": "rgba(0,0,0,0.1)",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    },
+    "elevation 2": {
+      "value": {
+        "x": "0",
+        "y": "2",
+        "blur": "4",
+        "spread": "0",
+        "color": "rgba(0,0,0,0.08)",
         "type": "dropShadow"
       },
       "type": "boxShadow"
@@ -953,11 +964,13 @@
         "type": "color"
       }
     },
-    "Navigation": {
-      "Bottom Navigation Bar": {
-        "value": "{elevation 1}",
-        "type": "boxShadow"
-      }
+    "Mid level": {
+      "value": "{elevation 1}",
+      "type": "boxShadow"
+    },
+    "Bottom level": {
+      "value": "{elevation 2}",
+      "type": "boxShadow"
     }
   },
   "$themes": []
