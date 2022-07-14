@@ -485,7 +485,7 @@
     },
     "Gradient": {
       "Fade to Grey": {
-        "value": "linear-gradient(180deg, rgba(248, 248, 248, 0) 62.07%, #F2F2F2 100%)",
+        "value": "linear-gradient(180deg, #FFFFFF 60%, #F2F2F2 100%)",
         "type": "color"
       },
       "Orange Fade Out": {
