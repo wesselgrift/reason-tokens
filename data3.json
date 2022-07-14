@@ -659,6 +659,11 @@
         "value": "{Shade.50}",
         "type": "color",
         "description": "Used for the app's background"
+      },
+      "Disabled": {
+        "value": "{Shade.100}",
+        "type": "color",
+        "description": "Used for the app's background"
       }
     },
     "Surface": {
