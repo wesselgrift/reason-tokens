@@ -964,11 +964,11 @@
         "type": "color"
       }
     },
-    "Mid level": {
+    "Mid level shadow": {
       "value": "{elevation 1}",
       "type": "boxShadow"
     },
-    "Bottom level": {
+    "Bottom level shadow": {
       "value": "{elevation 2}",
       "type": "boxShadow"
     }
