@@ -629,7 +629,7 @@
       "value": {
         "fontFamily": "{base-font-family}",
         "fontWeight": "{font-weight-semibold}",
-        "lineHeight": "{line-height-20}",
+        "lineHeight": "{line-height-24}",
         "fontSize": "{font-size-15}",
         "letterSpacing": "{letter-spacing-0}"
       },
@@ -869,7 +869,7 @@
           "type": "color"
         },
         "Pressed": {
-          "value": "{Shade.200}",
+          "value": "{Shade.100}",
           "type": "color"
         },
         "Disabled": {
