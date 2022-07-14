@@ -488,6 +488,10 @@
         "value": "linear-gradient(180deg, #FFFFFF 60%, #F2F2F2 100%)",
         "type": "color"
       },
+      "Grey Fade Out": {
+        "value": "linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 100%)",
+        "type": "color"
+      },
       "Orange Fade Out": {
         "value": "linear-gradient(180deg, rgba(248, 166, 70, 0.5) 0%, rgba(248, 166, 70, 0) 100%)",
         "type": "color"
@@ -934,6 +938,10 @@
     "Decorative": {
       "Home Gradient": {
         "value": "{Gradient.Fade to Grey}",
+        "type": "color"
+      },
+      "Sun Arc Gradient": {
+        "value": "{Gradient.Grey Fade Out}",
         "type": "color"
       },
       "Solar Graph Gradient Active": {
