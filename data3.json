@@ -651,6 +651,18 @@
       "type": "typography",
       "description": "Regular paragraph"
     },
+    "Button Label Underlined": {
+      "value": {
+        "fontFamily": "{base-font-family}",
+        "fontWeight": "{font-weight-semibold}",
+        "lineHeight": "{line-height-24}",
+        "fontSize": "{font-size-15}",
+        "letterSpacing": "{letter-spacing-0}",
+        "textDecoration": "Underline"
+      },
+      "type": "typography",
+      "description": "Regular paragraph"
+    },
     "Bottom Navigation Label": {
       "value": {
         "fontFamily": "{base-font-family}",
