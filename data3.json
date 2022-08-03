@@ -923,7 +923,7 @@
         "value": "{Shade.700}",
         "type": "color"
       },
-      "Error": {
+      "Critical": {
         "value": "{Red.500}",
         "type": "color"
       },
