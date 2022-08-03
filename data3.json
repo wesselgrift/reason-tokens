@@ -897,7 +897,7 @@
       },
       "Secondary": {
         "Default": {
-          "value": "{Shade.0}",
+          "value": "{Shade.50}",
           "type": "color"
         },
         "Pressed": {
