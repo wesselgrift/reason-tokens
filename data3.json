@@ -916,11 +916,19 @@
         "type": "color"
       },
       "Loud": {
-        "value": "{Shade.200}",
+        "value": "{Shade.300}",
         "type": "color"
       },
       "Active": {
         "value": "{Shade.700}",
+        "type": "color"
+      },
+      "Error": {
+        "value": "{Red.500}",
+        "type": "color"
+      },
+      "Success": {
+        "value": "{Green.600}",
         "type": "color"
       },
       "Negative": {
