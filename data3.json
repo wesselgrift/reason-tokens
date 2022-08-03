@@ -919,6 +919,10 @@
         "value": "{Shade.200}",
         "type": "color"
       },
+      "Active": {
+        "value": "{Shade.700}",
+        "type": "color"
+      },
       "Negative": {
         "value": "{Shade.0}",
         "type": "color"
